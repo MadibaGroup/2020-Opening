@@ -1,0 +1,172 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{11}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Assal and Chiasson}{Assal and
+  Chiasson}{2018}]%
+        {assal2018motivations}
+\bibfield{author}{\bibinfo{person}{Hala Assal} {and} \bibinfo{person}{Sonia
+  Chiasson}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Motivations and amotivations for software
+  security}. In \bibinfo{booktitle}{\emph{SOUPS Workshop on Security
+  Information Workers (WSIW). USENIX Association}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Biber and Gray}{Biber and Gray}{2010}]%
+        {biber2010challenging}
+\bibfield{author}{\bibinfo{person}{Douglas Biber} {and}
+  \bibinfo{person}{Bethany Gray}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Challenging stereotypes about academic writing:
+  Complexity, elaboration, explicitness}.
+\newblock \bibinfo{journal}{\emph{Journal of English for Academic Purposes}}
+  \bibinfo{volume}{9}, \bibinfo{number}{1} (\bibinfo{year}{2010}),
+  \bibinfo{pages}{2--20}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cameron, Nairn, and Higgins}{Cameron
+  et~al\mbox{.}}{2009}]%
+        {cameron2009demystifying}
+\bibfield{author}{\bibinfo{person}{Jenny Cameron}, \bibinfo{person}{Karen
+  Nairn}, {and} \bibinfo{person}{Jane Higgins}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Demystifying academic writing: Reflections on
+  emotions, know-how and academic identity}.
+\newblock \bibinfo{journal}{\emph{Journal of Geography in Higher Education}}
+  \bibinfo{volume}{33}, \bibinfo{number}{2} (\bibinfo{year}{2009}),
+  \bibinfo{pages}{269--284}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Danilova, Naiakshina, and Smith}{Danilova
+  et~al\mbox{.}}{2020}]%
+        {danilova2020one}
+\bibfield{author}{\bibinfo{person}{Anastasia Danilova}, \bibinfo{person}{Alena
+  Naiakshina}, {and} \bibinfo{person}{Matthew Smith}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{One size does not fit all: a grounded theory and
+  online survey study of developer preferences for security warning types}. In
+  \bibinfo{booktitle}{\emph{2020 IEEE/ACM 42nd International Conference on
+  Software Engineering (ICSE)}}. IEEE, \bibinfo{pages}{136--148}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Glaser and Strauss}{Glaser and
+  Strauss}{1967}]%
+        {glaser1968discovery}
+\bibfield{author}{\bibinfo{person}{Barney~G Glaser} {and}
+  \bibinfo{person}{Anselm~L Strauss}.} \bibinfo{year}{1967}\natexlab{}.
+\newblock \showarticletitle{The discovery of grounded theory; strategies for
+  qualitative research}.
+\newblock  (\bibinfo{year}{1967}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hartley}{Hartley}{2012}]%
+        {hartley2012new}
+\bibfield{author}{\bibinfo{person}{James Hartley}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{New ways of making academic articles easier to
+  read}.
+\newblock \bibinfo{journal}{\emph{International Journal of Clinical and Health
+  Psychology}} \bibinfo{volume}{12}, \bibinfo{number}{1}
+  (\bibinfo{year}{2012}), \bibinfo{pages}{143--160}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{King}{King}{1967}]%
+        {king1967opening}
+\bibfield{author}{\bibinfo{person}{Lester~S King}.}
+  \bibinfo{year}{1967}\natexlab{}.
+\newblock \showarticletitle{The Opening Sentence}.
+\newblock \bibinfo{journal}{\emph{JAMA}} \bibinfo{volume}{202},
+  \bibinfo{number}{6} (\bibinfo{year}{1967}), \bibinfo{pages}{535--536}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mai, Pfeffer, Gusenbauer, Weippl, and
+  Krombholz}{Mai et~al\mbox{.}}{2020}]%
+        {mai2020user}
+\bibfield{author}{\bibinfo{person}{Alexandra Mai}, \bibinfo{person}{Katharina
+  Pfeffer}, \bibinfo{person}{Matthias Gusenbauer}, \bibinfo{person}{Edgar
+  Weippl}, {and} \bibinfo{person}{Katharina Krombholz}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{User Mental Models of Cryptocurrency Systems—-A
+  Grounded Theory Approach}.
+\newblock  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ruoti, Kaiser, Yerukhimovich, Clark, and
+  Cunningham}{Ruoti et~al\mbox{.}}{2019}]%
+        {ruoti2019blockchain}
+\bibfield{author}{\bibinfo{person}{Scott Ruoti}, \bibinfo{person}{Ben Kaiser},
+  \bibinfo{person}{Arkady Yerukhimovich}, \bibinfo{person}{Jeremy Clark}, {and}
+  \bibinfo{person}{Robert Cunningham}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Blockchain technology: what is it good for?}
+\newblock \bibinfo{journal}{\emph{Commun. ACM}} \bibinfo{volume}{63},
+  \bibinfo{number}{1} (\bibinfo{year}{2019}), \bibinfo{pages}{46--53}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ruoti, Monson, Wu, Zappala, and Seamons}{Ruoti
+  et~al\mbox{.}}{2017}]%
+        {ruoti2017weighing}
+\bibfield{author}{\bibinfo{person}{Scott Ruoti}, \bibinfo{person}{Tyler
+  Monson}, \bibinfo{person}{Justin Wu}, \bibinfo{person}{Daniel Zappala}, {and}
+  \bibinfo{person}{Kent Seamons}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Weighing context and trade-offs: How suburban
+  adults selected their online security posture}. In
+  \bibinfo{booktitle}{\emph{Thirteenth Symposium on Usable Privacy and Security
+  ($\{$SOUPS$\}$ 2017)}}. \bibinfo{pages}{211--228}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Stobert and Biddle}{Stobert and
+  Biddle}{2014}]%
+        {stobert2014password}
+\bibfield{author}{\bibinfo{person}{Elizabeth Stobert} {and}
+  \bibinfo{person}{Robert Biddle}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{The password life cycle: user behaviour in managing
+  passwords}. In \bibinfo{booktitle}{\emph{10th Symposium On Usable Privacy and
+  Security ($\{$SOUPS$\}$ 2014)}}. \bibinfo{pages}{243--255}.
+\newblock
+
+
+\end{thebibliography}
