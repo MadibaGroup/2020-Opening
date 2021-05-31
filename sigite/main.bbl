@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{13}
+\begin{thebibliography}{19}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -74,6 +74,30 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Clear and Parrish}{Clear and Parrish}{2020}]%
+        {CC2020report}
+\bibfield{author}{\bibinfo{person}{Alison Clear} {and} \bibinfo{person}{Allen
+  Parrish}.} \bibinfo{year}{December 31, 2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{A Computing Curricula Series Report,
+  CC2020}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+  \bibinfo{institution}{Association for Computing Machinery (ACM), IEEE
+  Computer Society (IEEE-CS)}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Clear, Parrish, Zhang, and van~der Veer}{Clear
+  et~al\mbox{.}}{2017}]%
+        {CC2020}
+\bibfield{author}{\bibinfo{person}{Alison Clear}, \bibinfo{person}{Allen
+  Parrish}, \bibinfo{person}{Ming Zhang}, {and} \bibinfo{person}{Gerritt~C
+  van~der Veer}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{CC2020: A Vision on Computing Curricula}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2017 ACM SIGCSE Technical
+  Symposium on Computer Science Education}}. \bibinfo{pages}{647--648}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Danilova, Naiakshina, and Smith}{Danilova
   et~al\mbox{.}}{2020}]%
         {danilova2020one}
@@ -95,6 +119,18 @@
   Writing Opening Sentences}.
 \newblock \bibinfo{journal}{\emph{The Atlantic}} (\bibinfo{date}{July}
   \bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fell, Proulx, and Casey}{Fell
+  et~al\mbox{.}}{1996}]%
+        {FPC96}
+\bibfield{author}{\bibinfo{person}{Harriet~J Fell}, \bibinfo{person}{Viera~K
+  Proulx}, {and} \bibinfo{person}{John Casey}.}
+  \bibinfo{year}{1996}\natexlab{}.
+\newblock \showarticletitle{Writing across the computer science curriculum}.
+\newblock \bibinfo{journal}{\emph{ACM SIGCSE Bulletin}} \bibinfo{volume}{28},
+  \bibinfo{number}{1} (\bibinfo{year}{1996}), \bibinfo{pages}{204--209}.
 \newblock
 
 
@@ -121,6 +157,17 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Kay}{Kay}{1998}]%
+        {Kay98}
+\bibfield{author}{\bibinfo{person}{David~G Kay}.}
+  \bibinfo{year}{1998}\natexlab{}.
+\newblock \showarticletitle{Computer scientists can teach writing: an upper
+  division course for computer science majors}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the twenty-ninth SIGCSE technical
+  symposium on Computer science education}}. \bibinfo{pages}{117--120}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{King}{King}{1967}]%
         {king1967opening}
 \bibfield{author}{\bibinfo{person}{Lester~S King}.}
@@ -141,6 +188,17 @@
 \newblock \showarticletitle{User Mental Models of Cryptocurrency Systems----A
   Grounded Theory Approach}.
 \newblock  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pesante}{Pesante}{1991}]%
+        {Pes91}
+\bibfield{author}{\bibinfo{person}{Linda~H Pesante}.}
+  \bibinfo{year}{1991}\natexlab{}.
+\newblock \showarticletitle{Integrating writing into computer science courses}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the twenty-second SIGCSE
+  technical symposium on Computer science education}}.
+  \bibinfo{pages}{205--209}.
 \newblock
 
 
@@ -187,6 +245,17 @@
 \newblock \showarticletitle{The password life cycle: user behaviour in managing
   passwords}. In \bibinfo{booktitle}{\emph{10th Symposium On Usable Privacy and
   Security ($\{$SOUPS$\}$ 2014)}}. \bibinfo{pages}{243--255}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Taylor and Paine}{Taylor and Paine}{1993}]%
+        {TP93}
+\bibfield{author}{\bibinfo{person}{Harriet~G Taylor} {and}
+  \bibinfo{person}{Katharine~M Paine}.} \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{An interdisciplinary approach to the development of
+  writing skills in computer science students}.
+\newblock \bibinfo{journal}{\emph{ACM SIGCSE Bulletin}} \bibinfo{volume}{25},
+  \bibinfo{number}{1} (\bibinfo{year}{1993}), \bibinfo{pages}{274--278}.
 \newblock
 
 
