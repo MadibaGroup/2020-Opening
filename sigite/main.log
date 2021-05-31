@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.4.8)  31 MAY 2021 16:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.4.8)  31 MAY 2021 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1046,11 +1046,11 @@ Package balance Warning: You have called \balance in second column
 
 Package atenddvi Info: Last page = 6.
 [6.6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 381.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 381.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 386.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 386.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 381.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 381.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 386.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 386.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 742717E480F380C679263EC92306BBFB;1550.
  ) 
@@ -1077,7 +1077,7 @@ LinLibertineT.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/libert
 ine/LinLibertineTB.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/l
 ibertine/LinLibertineTI.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
 lic/newtx/txsys.pfb>
-Output written on main.pdf (6 pages, 590943 bytes).
+Output written on main.pdf (6 pages, 590923 bytes).
 PDF statistics:
  237 PDF objects out of 1000 (max. 8388607)
  203 compressed objects within 3 object streams
