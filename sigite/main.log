@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.4.8)  31 MAY 2021 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.4.8)  31 MAY 2021 14:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1039,31 +1039,29 @@ Package pdftex.def Info: image.png  used on input line 113.
 
 Class acmart Warning: A possible image without description on input line 116.
 
-
-LaTeX Warning: Reference `fig:overview' on page 2 undefined on input line 131.
-
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 139.
+(Font)              scaled to size 9.0pt on input line 132.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 139.
-
-Overfull \hbox (2.7025pt too wide) in paragraph at lines 179--180
+(Font)              scaled to size 9.0pt on input line 132.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 160.
+[2.2]
+Overfull \hbox (2.7025pt too wide) in paragraph at lines 172--173
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) out-source their com-put-ing tasks to the c
 loud ser-vice providers
  []
 
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 181.
-[2.2]
-Underfull \vbox (badness 7504) has occurred while \output is active []
 
- [3.3 <./image.png>] [4.4]
-Underfull \vbox (badness 1990) has occurred while \output is active []
-
- (./main.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5.5])
+
+Underfull \vbox (badness 3449) has occurred while \output is active []
+
+ [3.3 <./image.png>] [4.4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5.5]
+(./main.bbl)
 
 Package natbib Warning: There were undefined citations.
 
@@ -1074,17 +1072,13 @@ Class acmart Warning: Some images may lack descriptions.
 Class acmart Warning: ACM reference format is mandatory for papers over one pag
 e.
 
-
-Overfull \vbox (1.527pt too high) has occurred while \output is active []
-
 Package atenddvi Info: Last page = 6.
- [6.6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 380.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 380.
-
-(./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 380.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 380.
+[6.6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 373.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 373.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 373.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B2196DB76BD96835209EFE4E2E005E9B;1550.
 
@@ -1093,13 +1087,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 19392 strings out of 480994
- 294412 string characters out of 5912143
- 598574 words of memory out of 5000000
- 34013 multiletter control sequences out of 15000+600000
- 673951 words of font info for 262 fonts, out of 8000000 for 9000
+ 19397 strings out of 480994
+ 294548 string characters out of 5912143
+ 605496 words of memory out of 5000000
+ 34012 multiletter control sequences out of 15000+600000
+ 674595 words of font info for 266 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 63i,11n,100p,1227b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,11n,100p,1227b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc
 }{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}{/
 usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/u
@@ -1115,7 +1109,7 @@ LinLibertineT.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/libert
 ine/LinLibertineTB.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/l
 ibertine/LinLibertineTI.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
 lic/newtx/txsys.pfb>
-Output written on main.pdf (6 pages, 584120 bytes).
+Output written on main.pdf (6 pages, 585533 bytes).
 PDF statistics:
  209 PDF objects out of 1000 (max. 8388607)
  176 compressed objects within 2 object streams
