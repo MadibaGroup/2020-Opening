@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.4.8)  31 MAY 2021 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.4.8)  31 MAY 2021 16:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1032,11 +1032,7 @@ Overfull \hbox (2.7025pt too wide) in paragraph at lines 174--175
 loud ser-vice providers
  []
 
-[3.3 <./image.png>] [4.4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5.5]
-(./main.bbl)
+[3.3 <./image.png>] [4.4] [5.5] (./main.bbl)
 
 Class acmart Warning: Some images may lack descriptions.
 
@@ -1050,22 +1046,22 @@ Package balance Warning: You have called \balance in second column
 
 Package atenddvi Info: Last page = 6.
 [6.6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 376.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 376.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 381.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 381.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 376.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 376.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 381.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 381.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B2196DB76BD96835209EFE4E2E005E9B;1550.
+(rerunfilecheck)             Checksum: 742717E480F380C679263EC92306BBFB;1550.
  ) 
 Here is how much of TeX's memory you used:
- 19458 strings out of 480994
- 295666 string characters out of 5912143
- 602836 words of memory out of 5000000
+ 19463 strings out of 480994
+ 295721 string characters out of 5912143
+ 602444 words of memory out of 5000000
  34042 multiletter control sequences out of 15000+600000
- 676963 words of font info for 281 fonts, out of 8000000 for 9000
+ 677061 words of font info for 281 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 63i,11n,100p,1227b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,11n,100p,1131b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc
 }{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}{/
 usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/u
@@ -1081,10 +1077,10 @@ LinLibertineT.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/libert
 ine/LinLibertineTB.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/l
 ibertine/LinLibertineTI.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
 lic/newtx/txsys.pfb>
-Output written on main.pdf (6 pages, 589286 bytes).
+Output written on main.pdf (6 pages, 590582 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 197 compressed objects within 2 object streams
- 65 named destinations out of 1000 (max. 500000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
  39030 words of extra memory for PDF output out of 42996 (max. 10000000)
 

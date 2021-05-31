@@ -187,11 +187,13 @@ Grounded theory is used as a methodology in security and privacy research. Some 
 		
 		\item	``The Network Time Protocol (NTP) is one of the Internet’s oldest protocols, dating back to RFC 958 [15] published in 1985.''
 	\end{itemize} 		
-	In some cases, a paper opens with a “compound” sentence that makes reference to a historic event in one clause of the sentence, while having additional clauses of a different category. For example, the following sentence refers to a historic event as well as a technical advance.
+	In some cases, a paper opens with a “compound” sentence that makes reference to a historic event in one clause of the sentence, while having additional clauses of a different category. For example, the following sentence refers to a historic event as well as a technical advance. 
 	
 	\begin{itemize}
 		\item 	``Starting from Denning’s seminal work in 1986 [9], intrusion detection has evolved into a number of different approaches.''
-	\end{itemize}	
+	\end{itemize}
+	
+	In our analysis, some sentences are coded with more than one code but we do so sparingly. 
 	
 	
 	\subsection{Arguments}
@@ -336,22 +338,26 @@ Grounded theory is used as a methodology in security and privacy research. Some 
 		\item ``Do programmers leave fingerprints in their source code?''
 	\end{itemize}
 	
-	\section{Discussion}
-	\label{sec:disc}
-One of the questions we asked was ``Do you have to be an expert in security\&privacy to understand these opening sentences? ''. The way the opening sentence is constructed changes the audience that it targets. Let's consider this opening sentence: ``The widespread adoption of DEP, which ensures that all writable pages in memory are nonexecutable, has largely killed classic code injection attacks.'' When one looks at this example, even though they are not an expert (and they don't know what DEP or code injection attack is), they can still understand the gist of it. One would associate the word attack with negative outcomes and would decide that the fact``DEP has killed classic code injection attacks'' is something good and preferred. But what if the sentence was like this: ``The widespread adoption of DEP, which ensures that all writable pages in memory are nonexecutable, has largely killed classic code injection.'' Then, here we need the expertise. The reader has to know that code injection is a type of attack, so the message is correctly conveyed to the reader. For a person who is not an expert in the area it is not cleat whether classic code injection being killed is a desirable property or not.
-
-
-\textblue{Mention the following are secondary codes?}
-
-We also analyzed to what extend the authors add ``colour commentary'' in the opening sentence. The decision to use this type of commentary is related to how researchers perceive and define the `seriousness' of the topic: Is avoiding some colour in the text a way to prove that the problem they are working on is significant and should be taken seriously? To add some colour, some papers use rhetoric to make a point. What makes these sentences more vivid is the rich choice of words (``The defacement and vandalism of websites is an attack that disrupts the operation of companies and organizations, tarnishes their brand, and plagues websites of all sizes, from those of large corporations to the websites of single individuals;'' ``The dismissal of human memory by the security community reached the point of parody long ago;'' ``Video is ineffably compelling''). We also not that the colour commentary in these sentences cannot be characterized as``purple prose'', which defines an ornate and elaborate writing. 
-
-As for the length of the opening sentence, we compered the shortest and longest ones to discuss their properties. Short sentences are striking and easy to remember. The shortest ones from our data set were four words long: ``Video is ineffably compelling'' and ``Software bugs are expensive.'' Long sentences can obviously convey more information or make a complex argument, but they might have to be read a few times to fully parse what they are saying. King has a similar argument in~\cite{king1967opening}, where he gives an example of a long opening sentence in medical writing and he simplifies the sentence by shortening it and as a result making it more concise and easier to parse.
-
-Appealing to the notion that a domain is important because of its longevity is also a common way to start a paper in our data set. The idea of appealing to years or decades of work is extremely common (``Over the last few years there have been numerous reports…'' ``The last decade in cryptography…'' ``Over the past few years, face authentication systems…'' ``For several decades, car keys…''). 
-
-There was one category of sentences that is specific to security and privacy. In security, you can imagine that researchers want to tackle the biggest threats. Many use their opening sentence to position themselves as such. While some of them directly state that it is the most prevalent threat (``In recent years, unwanted software has risen to the forefront of threats facing users;'' ``Today, runtime attacks remain one of the most prevalent attack vectors against software programs;'' ``Remote malware downloads currently represent the most common infection vector.''), others prefer to make their point in a stronger way with their choice of words (``In spite of extensive industrial and academic efforts (e.g., [3, 41, 42]), distributed denial-of-service (DDoS) attacks continue to plague the Internet'').
-
 	
+\section{Discussion}
+\label{sec:disc}
+	
+	
+\paragraph{Domain Expertise.} We pondered whether we could apply our analysis to a domain in which we were not experts. Obviously a non-expert in security would not understand the technical content of many of our sentences, but would they be able to tell the difference between, say, a historic fact and a suitability argument? 
+
+We are unsure but skeptical. Consider the following sentence: ``The widespread adoption of DEP, which ensures that all writable pages in memory are nonexecutable, has largely killed classic code injection attacks.'' A non-expert who is unfamiliar with DEP or code injection could understand the gist of the sentence: code injection is an \textit{attack}, therefore it is \textit{bad}; DEP is \textit{good} because it reduces something that is bad. But what if the authors of the sentence had dropped the word `attack' and instead simply ended: ``DEP\ldots has largely killed classic code injection.'' Now it is ambiguous to a non-expert whether DEP is good or bad, in fact the strength of the word `kills' might lead the non-exert to conclude DEP is bad. While most sentences are not like this, we see this as evidence that our analysis should be undertaken by domain experts and not general readers.
+
+\paragraph{Sentence Length.} We examined the shortest and longest sentences in our dataset. Short sentences are striking and easy to remember. The shortest ones from our data set were four words long: ``Video is ineffably compelling'' and ``Software bugs are expensive.'' Long sentences can obviously convey more information or make a complex argument, but they might have to be read a few times to fully parse what they are saying. King has a similar argument in~\cite{king1967opening}, where he gives an example of a long opening sentence in medical writing and he simplifies the sentence by shortening it and as a result making it more concise and easier to parse. 
+
+\paragraph{Security-specific Approach.} There was one set of sentences that usually fell under the \textit{suitability: importance of subject} code that was very specific to security. In security, it is important to researchers to tackle the biggest threats. Many use their opening sentence to position themselves as doing so. Many of them flatly state that their research area is the most prevalent threat (``In recent years, unwanted software has risen to the forefront of threats facing users;'' ``Today, runtime attacks remain one of the most prevalent attack vectors against software programs;'' ``Remote malware downloads currently represent the most common infection vector.''). Some prefer to make their point in a stronger way with a colorful choice of words (``In spite of extensive industrial and academic efforts (e.g., [3, 41, 42]), distributed denial-of-service (DDoS) attacks continue to plague the Internet''). We look at colorful sentences next, with another example using the word `plague.'
+
+\paragraph{Color} We also analyzed to what extend the authors add `colour commentary' in the opening sentence. The decision to use this type of commentary is related to how researchers perceive and define the seriousness of their topic. Is avoiding all colour in the text a way to prove that the problem is significant and should be taken seriously? Or should writers add some colour to make the writing more engaging and easier to hook the reader? Examples of sentences that use a more vivid choice of words include: ``The defacement and vandalism of websites is an attack that disrupts the operation of companies and organizations, tarnishes their brand, and plagues websites of all sizes, from those of large corporations to the websites of single individuals;'' ``The dismissal of human memory by the security community reached the point of parody long ago;'' ``Video is ineffably compelling''. 
+
+Using colorful language is probably best in moderation. Text that is very ornate and elaborate is deridingly called `purple prose.' We did not find any examples in our data set, but to what extent is this a reflection of writing in information technology? An interesting area of future work is to examine the usefulness of our taxonomy in both other STEM domains, but also in academic writing in arts and the humanities.
+	
+\paragraph{The Arc of Time.} Appealing to the notion that a domain is important because of its longevity is also a common way to start a paper in our data set. The idea of appealing to years or decades of work is extremely common (``Over the last few years there have been numerous reports…'' ``The last decade in cryptography…'' ``Over the past few years, face authentication systems…'' ``For several decades, car keys…''). The longest timeframe in our dataset is: ``Redaction of sensitive information from documents has been used since ancient times as a means of concealing and removing secrets from texts intended for public release.''
+
+
 	\section{Conclusion and Future Work}
 	
 	As researchers, we often find ourselves staring at the blinking cursor, trying to come up with a witty and neat way to start our paper to engage the audience. The opening sentence has a responsibility because it is a way to be remembered, just like in the novels. Chances are high that you recognize many opening sentences of famous literary works even if you haven’t read them. Knowing how many times we have struggled with an opening sentence, we were curious how other researchers begin their papers. We know every researcher has their own style of telling the story of their research process. 
@@ -366,8 +372,7 @@ There was one category of sentences that is specific to security and privacy. In
 	
 	But we think that we may need different categories if we do the same study in literature. 
 	
-	
-	We also observe that the opening sentences that we coded are not too elaborate or ornate (this type of writing is defined as `purple prose').
+
 	
 	
 	
