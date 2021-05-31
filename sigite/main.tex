@@ -30,8 +30,8 @@
 
 \begin{document}
 	
-\title{Opening sentences of research papers}
-\subtitle{How academics defeat the blinking cursor}
+\title{Opening sentences in academic writing}
+\subtitle{How researchers defeat the blinking cursor}
 
 \author{Didem Demirag}
 \affiliation{\institution{Concordia University} \city{Montreal} \state{QC} \country{Canada}}
@@ -41,7 +41,7 @@
 \email{j.clark@concordia.ca}
 	
 \begin{abstract}
-TK abstract
+Abstract tk tk tk
 \end{abstract}
 	
 \begin{CCSXML}
@@ -62,47 +62,73 @@ TK abstract
 	
 % = = =
 	
-	\section{Introduction}
-	How do researchers start their papers? We wanted to understand how other researchers approach the opening sentence in their work. For this purpose, we studied three years of papers (379 papers in total) from USENIX Security, one of the top venues for security research. More pertinently, it is a venue with open access, easy-to-download full proceedings in a variety of friendly formats that made our job easier. We read every opening sentence from the main body of the paper (as opposed to the abstract). For this work, we drew inspiration from Grounded Theory~\cite{glaser1968discovery}---we applied coding for each sentence. After numerous iterations several patterns started to emerge and as a result, we developed and refined a detailed categorization for opening sentences. 
+\section{Introduction}
+ 
+How do researchers start their papers? The opening sentence of a paper needs to be bold, convey the importance of the subject of the paper, and hook the reader. That is a lot to put into a single sentence. The novelist Stephen King is said to spend ``months or even years'' writing an opening sentence~\cite{Fas13}. The academic Steven Pinker notes that,
+
+\begin{quote}
+Good writing starts strong. Not with a cliché (`Since the dawn of time’), not with a banality (`Recently, scholars have been increasingly concerned with the question of …’), but with a contentful observation that provokes curiosity.~\cite{Pin15}
+\end{quote}
+
+In this paper, we study 379 papers from the field of information systems security. We use a variant of grounded theory~\cite{glaser1968discovery} to classify the opening sentences of each of these papers according to what the sentence is doing to advance an argument and engage with the reader. For example, a paper might start with a historical fact, argue the importance of the subject, tell a story, or open with a question (as this paper itself does). We develop 5 main categories, with 14 sub-types in total. We provide many examples of each and a guide to distinguishing them.
+
+While this project might seem superfluous, we want to raise awareness about the importance of good writing within research papers. We have noted that the education of information technology and computer science (\eg SIGITE and SIGCSE) domains have a blindspot for technical writing skills when it comes specifically to research papers. We hope to instigate research in this area given the important role that papers play in allowing experts to educate other experts, as well as in the training of students.
 	
-	% GITHUB Link???
-	\section{Related Work}
-	Different aspects of academic writing has been explored in the literature. King analyses opening sentences in medical research in his article~\cite{king1967opening}. He states that the opening sentence should draw readers' attention, and it should also be concise and clear about stating the main theme of the paper. He also gives examples from medical writing and explains different ways to simplify overcomplicated sentences by shortening them. Cameron \etal explains the struggles of the writing process and suggests strategies to helps novice writers to overcome them~\cite{cameron2009demystifying}. Hartley presents a bilingual study in English and Spanish on research papers in psychology~\cite{hartley2012new}. The paper focuses on improving different aspects of academic writing to increase readability. Biber \etal discuss the stereotypical characteristics of academic writing like complex grammar structures~\cite{biber2010challenging}.
+\paragraph{Relevance to Education}
+
+An important aspect of eduction is setting an effective curriculum within the classroom. Technical writing is now considered an essential communication skill (ACM/IEEE Computing Curricula 2020~\cite{CC2020}). In part, this is founded on research dating back to the 1990s on how to move writing from the English department into computer science~\cite{Pes91,TP93,FPC96,Kay98}.
+
+In this paper, we look at technical writing from a different angle. We concentrate on peer-reviewed research papers and assert that academic papers are one of the primary vectors for communication and education of new ideas between researchers. A written paper can reach a much wider audience than attendees at a conference where the research is presented or those with who benefit from direct communication with an author. Beyond this, academic papers are used in the classroom, particularly in course offered to graduate students. 
+	
+\paragraph{Source Data} Before initiating our work, we were unsure if it would be possible to understand the opening sentences of academic papers without some domain knowledge of the field (we discuss our conclusions on this in \textblue{Section~\ref{tk}}). Thus we made the initial decision to look at papers from our own research area: security. 
+
+The field of security has hundreds of conferences and workshops but is recognized as having four top conferences (as ordered within a calendar year): \textit{The Network and Distributed System Security Symposium (NDSS)}, \textit{IEEE Symposium on Security and Privacy}, \textit{USENIX Security Symposium}, and \textit{ACM Conference on Computer and Communications Security (CCS)}. These conferences have considerable overlapping authors\footnote{System Security Circus 2020: \url{http://s3.eurecom.fr/~balzarot/notes/top4}} and program committee members, and we hypothesize (but did not test) that the analysis would be invariant to which conference the papers came from.
+
+We selected \textit{USENIX Security}, which has always offered its proceedings as open access, allowing us to side-stepping any potential copyright issues with opening our dataset and work. It also offers its proceedings in formats that were useful for our project: \ie all papers in a single file; and \texttt{epub} format in addition to \texttt{pdf}. We used three consecutive years (\textblue{201X--201Y}) for a total of 379 papers. We analysed every opening sentence from the main body of the paper (as opposed to the abstract).
+	
+\paragraph{Access} Our raw data, the full set of original papers, and the full set of our codes are available as an NVIVO database as a public GitHub repository: (link removed for anonymity). 
 	
 	
-	\section{Methodology}
-	\subsection{Grounded theory}
+\section{Preliminaries and Related Work}
+	
+\paragraph{Opening Sentences.}
+
+Our idea to examine opening sentences came from Pinker's style guide~\cite{Pin15}, which is devoted in part to improving technical, scientific, and academic writing. Pinker also devotes a section of the book to the role of the opening sentences of a work (illustrating with popular non-fiction books). When we reflected on our own difficulty with `getting a paper going,' we conceived of this project. To our knowledge, opening sentences have not been systematically categorized before. In an older paper, King looks at opening sentences in medical research~\cite{king1967opening}. The article provides stylistic advice---draw the readers' attention, be concise and clear about stating the main theme of the paper---and he gives examples from medical writing and explains different ways to simplify overcomplicated sentences by shortening them. By contrast, our paper is not normative at all (it is not on how to improve an opening sentence) but is instead a neutral classification of how others have decided to open their papers, looking for trends and the variations in approach. 
+
+\paragraph{Academic Writing.}  Other research has examined the role of academic writing, however academic from other disciplines. Cameron \etal explains the struggles of the writing process and suggests strategies to helps novice writers to overcome them~\cite{cameron2009demystifying}. Hartley presents a bilingual study in English and Spanish on research papers in psychology~\cite{hartley2012new}. The paper focuses on improving different aspects of academic writing to increase readability. Biber \etal discuss the stereotypical characteristics of academic writing like complex grammar structures~\cite{biber2010challenging}.   
+	
+	
+\paragraph{Grounded Theory.}
 	%What is grounded theory? How is it done theoretically? Which steps did we follow and how did we adapt?
 	
-	Grounded theory is a qualitative data analysis method~\cite{glaser1968discovery}. The collected qualitative data  (\eg interview transcripts) is sorted through qualitative coding. By performing coding, the aim is to come up with new high-level theories and concepts at the end of the process. Coding is an iterative process, as several rounds of coding can be performed to refine the categories. At the end of the process,  a new theory that is based on the data is presented.
+Grounded theory is an analysis method for qualitative data~\cite{glaser1968discovery}. In ground theory, one or more practitioners will examine the data to divisions between different concepts. The data is then partitioned at these points and concepts are labeled with a code. By performing coding, the aim is to come up with new high-level theories and concepts at the end of the process. Coding is an iterative process and several rounds of coding can be performed to refine the categories. At the end of the process, a new theory that is based on the data is presented.
+
+Grounded theory is used as a methodology in security and privacy research. Some examples include: user mental models of cryptocurrency systems~\cite{mai2020user}, how blockchain technology is perceived and how it is used~\cite{ruoti2019blockchain}, preferences for security warning types~\cite{danilova2020one}, the factors that influence software developers' motivation towards security~\cite{assal2018motivations},  how users manage their online security posture~\cite{ruoti2017weighing}, and how users manage their passwords~\cite{stobert2014password}.
 	
-	In this paper, we applied coding for each opening sentence. We created codes and labeled each sentence by these codes. We observed the relations among the codes to categorize them and we ended up with the categorization shown in Figure~\ref{fig:overview}.  We used coding to determine common patterns among opening sentences. 
+\section{Categorization}
 	
-	%coding :
+\label{sec:categories}
+\begin{figure*}[t]
+	\centering
+	\includegraphics[width=0.8\textwidth]{image.png}
+	\caption{Overview of the categorization of opening sentences}
+	\label{fig:treemap}
+\end{figure*}
+	
+	
+	
+	Figure~\ref{fig:treemap} shows the hierarchy chart of the categories where the area of the box they are in is proportional to how many times they were used. We provide a description of each category in this section.
+	
+	In this paper, we partitioned out the opening sentence of each paper. We read the sentences and created general codes for sentences that had common themes. After initial coding, we would read each setence within a code to split into more detailed categories, or reclassify the sentences as appropriate. After many iteractions, we reached the taxonomy shown in Figure~\ref{fig:treemap}
+	
+		%coding :
 	%Open Coding: The data is separated into parts, codes are created and each part is labeled by these codes.
 	% Axial Coding:  Based on the relations observed among the codes, they are put into categories.
 	% Selective Coding: The categories from the previous step are combined into a single, core category, that is the premise of the thesis of the research .
 	
 	
-	Grounded Theory is also used as a methodology in security and privacy research. It is used to study user mental models of cryptocurrency systems~\cite{mai2020user}, how blockchain technology is perceived and how it is used~\cite{ruoti2019blockchain}, preferences for security warning types~\cite{danilova2020one}, the factors that influence software developers' motivation towards security~\cite{assal2018motivations},  how users manage their online security posture~\cite{ruoti2017weighing}, and how users manage their passwords~\cite{stobert2014password}.
-	
-	
-	
-	
-	
-	\section{Description of Each Category}
-	
-	\label{sec:categories}
-	\begin{figure*}[t]
-		\centering
-		\includegraphics[width=0.8\textwidth]{image.png}
-		\caption{Overview of the categorization of opening sentences}
-		\label{fig:overview}
-	\end{figure*}
-	
-	
-	
-	Figure~\ref{fig:overview} shows the hierarchy chart of the categories where the area of the box they are in is proportional to how many times they were used. We provide a description of each category in this section.
+
+ by these codes. We observed the relations among the codes to categorize them and we ended up with the categorization shown in Figure~\ref{fig:overview}.  We used coding to determine common patterns among opening sentences. 
 	
 	We do not include individual citations to the paper that each sentence is extracted from, as the bibliography for this paper would exceed the page limit. The sentences are from the following three proceedings: \textblue{cite the USENIX proceedings as a whole}. A full length version of this paper is available with individual citations (linked remove for anonymity). Finally, several quoted sentences have citations embedded within them. We leave these quoted verbatium, noting that the citation numbers within the quoted sentences are relevant to the context of the quoted paper and make no reference to the bibliography of this paper. 
 	

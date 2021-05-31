@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{11}
+\begin{thebibliography}{13}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -87,6 +87,17 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Fasser}{Fasser}{2013}]%
+        {Fas13}
+\bibfield{author}{\bibinfo{person}{Joe Fasser}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Why Stephen King Spends `Months and Even Years'
+  Writing Opening Sentences}.
+\newblock \bibinfo{journal}{\emph{The Atlantic}} (\bibinfo{date}{July}
+  \bibinfo{year}{2013}).
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Glaser and Strauss}{Glaser and
   Strauss}{1967}]%
         {glaser1968discovery}
@@ -127,9 +138,19 @@
   Pfeffer}, \bibinfo{person}{Matthias Gusenbauer}, \bibinfo{person}{Edgar
   Weippl}, {and} \bibinfo{person}{Katharina Krombholz}.}
   \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{User Mental Models of Cryptocurrency Systems—-A
+\newblock \showarticletitle{User Mental Models of Cryptocurrency Systems----A
   Grounded Theory Approach}.
 \newblock  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pinker}{Pinker}{2015}]%
+        {Pin15}
+\bibfield{author}{\bibinfo{person}{Steven Pinker}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The sense of style: The thinking person's
+  guide to writing in the 21st century}}.
+\newblock \bibinfo{publisher}{Penguin Books}.
 \newblock
 
 
