@@ -98,7 +98,7 @@ The field of security has hundreds of conferences and workshops but is recognize
 
 We selected \textit{USENIX Security}, which has always offered its proceedings as open access, allowing us to side-stepping any potential copyright issues with opening our dataset and work. It also offers its proceedings in formats that were useful for our project: \ie all papers in a single file; and \texttt{epub} format in addition to \texttt{pdf}. We used three consecutive years (2014--2016) for a total of 379 papers~\cite{usenix14,usenix15,usenix16}. We analysed every opening sentence from the main body of the paper (as opposed to the abstract).
 
-	% = = =
+	\paragraph{Access} Our raw data, the full set of original papers, and the full set of our codes are available as an NVIVO database as a public GitHub repository: (link removed for anonymity).
 
 \section{Preliminaries and Related Work}
 
@@ -111,30 +111,6 @@ Our idea to examine opening sentences came from Pinker's style guide~\cite{Pin15
 Miro at \textit{SIGCSE'11} describes \textblue{tk}~\cite{Mir11}.
 
 Other research has examined the role of academic writing other disciplines. Cameron \etal explains the struggles of the writing process and suggests strategies to helps novice writers to overcome them~\cite{cameron2009demystifying}. Hartley presents a bilingual study on improving different aspects of academic writing in psychology to increase readability~\cite{hartley2012new}. Biber \etal discuss stereotypical characteristics of academic writing including complex grammar structures~\cite{biber2010challenging}; a theme of Pinker's book as well~\cite{Pin15}.
-
-	\paragraph{Relevance to Education}
-
-	An important aspect of education is setting an effective curriculum within the classroom. Technical writing is now considered an essential communication skill (ACM/IEEE Computing Curricula 2020~\cite{CC2020,CC2020report}). In part, this is founded on research dating back to the 1990s on how to move writing from the English department into computer science and information technology~\cite{Pes91,TP93,FPC96,Kay98}.
-
-	In this paper, we look at technical writing from a different angle. We concentrate on peer-reviewed research papers and assert that academic papers are one of the primary vectors for communication and education of new ideas between researchers. A written paper can reach a much wider audience than attendees at a conference where the research is presented or those with who benefit from direct communication with an author. Beyond this, academic papers are used in the classroom, particularly in course offered to graduate students.
-
-	\paragraph{Source Data} Before initiating our work, we were unsure if it would be possible to understand the opening sentences of academic papers without some domain knowledge of the field (we discuss our conclusions on this in Section~\ref{sec:disc}). Thus we made the initial decision to look at papers from our own research area: security.
-
-	The field of security has hundreds of conferences and workshops but is recognized as having four top conferences (as ordered within a calendar year): \textit{The Network and Distributed System Security Symposium (NDSS)}, \textit{IEEE Symposium on Security and Privacy}, \textit{USENIX Security Symposium}, and \textit{ACM Conference on Computer and Communications Security (CCS)}. These conferences have considerable overlapping authors\footnote{System Security Circus 2020: \url{http://s3.eurecom.fr/~balzarot/notes/top4}} and program committee members, and we hypothesize (but did not test) that the analysis would be invariant to which conference the papers came from.
-
-	We selected \textit{USENIX Security}, which has always offered its proceedings as open access, allowing us to side-stepping any potential copyright issues with opening our dataset and work. It also offers its proceedings in formats that were useful for our project: \ie all papers in a single file; and \texttt{epub} format in addition to \texttt{pdf}. We used three consecutive years (2014--2016) for a total of 379 papers~\cite{usenix14,usenix15,usenix16}. We analysed every opening sentence from the main body of the paper (as opposed to the abstract).
-
-	\paragraph{Access} Our raw data, the full set of original papers, and the full set of our codes are available as an NVIVO database as a public GitHub repository: (link removed for anonymity).
-
-
-	\section{Preliminaries and Related Work}
-
-	\paragraph{Opening Sentences.}
-
-	Our idea to examine opening sentences came from Pinker's style guide~\cite{Pin15}, which is devoted in part to improving technical, scientific, and academic writing. Pinker also devotes a section of the book to the role of the opening sentences of a work (illustrating with popular non-fiction books). When we reflected on our own difficulty with `getting a paper going,' we conceived of this project. To our knowledge, opening sentences have not been systematically categorized before. In an older paper, King looks at opening sentences in medical research~\cite{king1967opening}. The article provides stylistic advice---draw the readers' attention, be concise and clear about stating the main theme of the paper---and he gives examples from medical writing and explains different ways to simplify overcomplicated sentences by shortening them. By contrast, our paper is not normative at all (it is not on how to improve an opening sentence) but is instead a neutral classification of how others have decided to open their papers, looking for trends and the variations in approach.
-
-	\paragraph{Academic Writing.}  Other research has examined the role of academic writing, however academic from other disciplines. Cameron \etal explains the struggles of the writing process and suggests strategies to helps novice writers to overcome them~\cite{cameron2009demystifying}. Hartley presents a bilingual study in English and Spanish on research papers in psychology~\cite{hartley2012new}. The paper focuses on improving different aspects of academic writing to increase readability. Biber \etal discuss the stereotypical characteristics of academic writing like complex grammar structures~\cite{biber2010challenging}.
-
 
 	\paragraph{Grounded Theory.}
 	%What is grounded theory? How is it done theoretically? Which steps did we follow and how did we adapt?
@@ -161,7 +137,7 @@ Other research has examined the role of academic writing other disciplines. Came
 
 	Grounded theory has a natural halting condition when no new codes are observed, and we halted after three years of proceedings. That is not to say that our categorization does not miss other kinds of sentences, only that new kinds should be rare if the dataset is representative. The final step of grounded theory is to pull general theories out of the codes and their categorization, which we do not pursue since our end goal was classification. We also were not coding the \textit{content} of the sentences, only the kind of writing they exhibit. For these reasons, we emphasize that we used the coding techniques of grounded theory rather than exactly grounded theory itself.
 
-	One further note about citations: we do not include individual citations to the paper that each sentence is extracted from, as the bibliography for this paper would exceed the page limit. The sentences are from the following three proceedings: \cite{usenix14,usenix15,usenix16}. A full length version of this paper is available with individual citations (linked remove for anonymity). Finally, several quoted sentences have citations embedded within them. We leave these quoted verbatim, noting that the citation numbers within the quoted sentences are relevant to the context of the quoted paper and make no reference to the bibliography of this paper.
+	Note that the quotes are verbatim and might include citations. Citations \textit{within} a quoted sentence are not found in the bibliography of our paper, but can be found by looking up the paper being quoted.  
 
 
 	\subsection{Facts}
