@@ -1,13 +1,13 @@
 \documentclass[sigconf,anonymous]{acmart}
-\settopmatter{printacmref=false, printccs=true, printfolios=true}
+%\settopmatter{printacmref=false, printccs=true, printfolios=true}
 
 % = = = ACM Metadata
 %\setcopyright{acmcopyright}
 %\copyrightyear{2018}
 %\acmYear{2018}
 %\acmDOI{10.1145/1122445.1122456}
-\acmConference[SIGITE '21]{SIGITE 2021 – 22nd Annual Conference on IT Education}{October 06--09, 2021}{Snowbird, UT}
-\acmBooktitle{SIGITE 2021 – 22nd Annual Conference on IT Education, October 06--09, 2021, Snowbird, UT}
+\acmConference[SIGCSE '22]{The 53rd ACM Technical Symposium on Computer Science Education}{March 2--5, 2022}{Providence, RI}
+%\acmBooktitle{SIGCSE 2022 – 53rd ACM Technical Symposium on Computer Science Education, March 2--5, 2022, Providence, RI}
 %\acmPrice{15.00}
 %\acmISBN{978-1-4503-XXXX-X/18/06}
 %%\acmSubmissionID{123-A56-BU3}
@@ -42,46 +42,58 @@
 	
 \begin{abstract}
 
-Education in information technology focuses on stakeholders like teachers, undergraduate students, and employers. Researchers also educate themselves about new results, technologies, and research areas. An important vehicle in this self-education process is reading peer-reviewed academic papers, which also form the basis of some graduate-level research courses. Technical writing skills are important in this domain as well. In this paper, we study the first sentence used by researchers in opening their academic papers to draw the reader in. We used a corpus of 379 top tier research papers in cybersecurity and applied coding techniques from grounded theory to create a taxonomy of 14 types of opening sentences, categorized into 5 general types. In this paper, we discuss each type with numerous examples, and we reflect on what we learned about writing after examining all of these sentences.
+Traditionally, education in computer science focuses on stakeholders like teachers, undergraduate students, and employers. However researchers also educate themselves about recent results and new subject matters. An important vehicle in this informal, self-education process is reading peer-reviewed academic papers---papers that are also used in the curriculum of graduate-level research courses. Technical writing skills are important in this domain, as well as engaging the reader with interesting text. This paper is a study of academic writing. We study in depth the first sentence used by researchers in opening their academic papers and how this sentence operates to draw the reader in. We use a corpus of 379 papers from a top-tier cybersecurity conference and use qualitative analysis (coding from grounded theory) to create a taxonomy of 5 general types and 14 sub-types of opening sentences. In this paper, we define and illustrate each type through examples, and reflect on what we learned about writing after examining all of these sentences.
 
 \end{abstract}
 	
 \begin{CCSXML}
 <ccs2012>
+
    <concept>
-       <concept_id>10003456.10003457.10003527.10003531.10003535</concept_id>
-       <concept_desc>Social and professional topics~Information technology education</concept_desc>
+       <concept_id>10003456.10003457.10003527.10003528</concept_id>
+       <concept_desc>Social and professional topics~Computational thinking</concept_desc>
        <concept_significance>500</concept_significance>
+       </concept>
+       <concept>
+<concept_id>10003456.10003457.10003527.10003538</concept_id>
+<concept_desc>Social and professional topics~Informal education</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+   <concept>
+       <concept_id>10002978.10003006</concept_id>
+       <concept_desc>Security and privacy~Systems security</concept_desc>
+       <concept_significance>300</concept_significance>
        </concept>
  </ccs2012>
 \end{CCSXML}
 
-\ccsdesc[500]{Social and professional topics~Information technology education}
+\ccsdesc[500]{Social and professional topics~Informal education}
+\ccsdesc[500]{Social and professional topics~Computational thinking}
+\ccsdesc[300]{Security and privacy~Systems security}
+
 	
-\keywords{Scientific Writing, Information Systems, Education, Cybersecurity}
+\keywords{Scientific Writing, Education, Cybersecurity}
 	
 \maketitle
 	
 % = = =
 	
-\section{Introduction}
- 
-How do researchers start their papers? The opening sentence of a paper needs to be bold, convey the importance of the subject of the paper, and hook the reader. That is a lot to put into a single sentence. The novelist Stephen King is said to spend ``months or even years'' writing an opening sentence~\cite{Fas13}. The academic Steven Pinker notes that,
+\section{Introductory Remarks}
+	
+What makes the writing style of an academic paper stand out? In part, strong technical writing is founded on SIGCSE research dating back to the 1990s on how to move writing from the English department into computer science~\cite{Pes91,TP93,FPC96,Kay98}. Technical writing is now considered an essential communication skill (\cf \textit{ACM/IEEE Computing Curricula 2020}~\cite{CC2020,CC2020report}) necessary to the computer science curriculum.
+
+In this paper, we look at technical writing from a unique perspective. We concentrate on peer-reviewed research papers. We assert that academic papers are one of the primary vectors for the education of new ideas between researchers. A well-written paper can reach a wider audience than attendees at a conference or those who benefit from direct communication with an author. Beyond this, academic papers are used in the classroom, particularly in courses offered to graduate students. 
+
+\paragraph{The Opening Sentence}
+
+We believe it is fruitful to study the writing style of academic computer science articles at different levels of granularity. As a general trade-off, smaller writing samples enables the study of a larger number of samples, while larger writing samples enables a broader representation of the writing style. In this work, we choose to look at a large number of very short samples of a single sentence each. In choosing which sentence to study from each paper, the first sentence is an intuitive candidate. The opening sentence of a paper needs to be bold, convey the importance of the subject of the paper, and hook the reader. The novelist Stephen King is said to spend ``months or even years'' writing an opening sentence~\cite{Fas13}. The academic Steven Pinker notes that,
 
 \begin{quote}
 ``Good writing starts strong. Not with a cliché (`Since the dawn of time’), not with a banality (`Recently, scholars have been increasingly concerned with the question of …’), but with a contentful observation that provokes curiosity.''~\cite{Pin15}
 \end{quote}
 
-In this paper, we study 379 papers from the field of information systems security. We use a variant of grounded theory~\cite{glaser1968discovery} to classify the opening sentences of each of these papers according to what the sentence is doing to advance an argument and engage with the reader. For example, a paper might start with a historical fact, argue the importance of the subject, tell a story, or open with a question (as this paper itself does). We develop 5 main categories, with 14 sub-types in total. We provide many examples of each and a guide to distinguishing them.
+In this paper, we study the opening sentences of 379 papers from the field of information systems security. We use a variant of grounded theory~\cite{glaser1968discovery} to classify the opening sentences of each of these papers according to what the sentence is doing to advance an argument and engage with the reader. For example, a paper might start with a historical fact, argue the importance of the subject, tell a story, or open with a question (as this paper itself does). We develop 5 main categories, with 14 sub-types in total. We provide many examples of each and a guide to distinguishing them.
 
-While this project might seem superfluous, we want to raise awareness about the importance of good writing within research papers. We have noted that the education of information technology and computer science (\eg SIGITE and SIGCSE) domains have a blindspot for technical writing skills when it comes specifically to research papers. We hope to instigate research in this area given the important role that papers play in allowing experts to educate other experts, as well as in the training of students.
-	
-\paragraph{Relevance to Education}
-
-An important aspect of education is setting an effective curriculum within the classroom. Technical writing is now considered an essential communication skill (ACM/IEEE Computing Curricula 2020~\cite{CC2020,CC2020report}). In part, this is founded on research dating back to the 1990s on how to move writing from the English department into computer science and information technology~\cite{Pes91,TP93,FPC96,Kay98}.
-
-In this paper, we look at technical writing from a different angle. We concentrate on peer-reviewed research papers and assert that academic papers are one of the primary vectors for communication and education of new ideas between researchers. A written paper can reach a much wider audience than attendees at a conference where the research is presented or those with who benefit from direct communication with an author. Beyond this, academic papers are used in the classroom, particularly in course offered to graduate students. 
-	
 \paragraph{Source Data} Before initiating our work, we were unsure if it would be possible to understand the opening sentences of academic papers without some domain knowledge of the field (we discuss our conclusions on this in Section~\ref{sec:disc}). Thus we made the initial decision to look at papers from our own research area: security. 
 
 The field of security has hundreds of conferences and workshops but is recognized as having four top conferences (as ordered within a calendar year): \textit{The Network and Distributed System Security Symposium (NDSS)}, \textit{IEEE Symposium on Security and Privacy}, \textit{USENIX Security Symposium}, and \textit{ACM Conference on Computer and Communications Security (CCS)}. These conferences have considerable overlapping authors\footnote{System Security Circus 2020: \url{http://s3.eurecom.fr/~balzarot/notes/top4}} and program committee members, and we hypothesize (but did not test) that the analysis would be invariant to which conference the papers came from.
@@ -90,14 +102,17 @@ We selected \textit{USENIX Security}, which has always offered its proceedings a
 	
 \paragraph{Access} Our raw data, the full set of original papers, and the full set of our codes are available as an NVIVO database as a public GitHub repository: (link removed for anonymity). 
 	
-	
 \section{Preliminaries and Related Work}
 	
 \paragraph{Opening Sentences.}
 
 Our idea to examine opening sentences came from Pinker's style guide~\cite{Pin15}, which is devoted in part to improving technical, scientific, and academic writing. Pinker also devotes a section of the book to the role of the opening sentences of a work (illustrating with popular non-fiction books). When we reflected on our own difficulty with `getting a paper going,' we conceived of this project. To our knowledge, opening sentences have not been systematically categorized before. In an older paper, King looks at opening sentences in medical research~\cite{king1967opening}. The article provides stylistic advice---draw the readers' attention, be concise and clear about stating the main theme of the paper---and he gives examples from medical writing and explains different ways to simplify overcomplicated sentences by shortening them. By contrast, our paper is not normative at all (it is not on how to improve an opening sentence) but is instead a neutral classification of how others have decided to open their papers, looking for trends and the variations in approach. 
 
-\paragraph{Academic Writing.}  Other research has examined the role of academic writing, however academic from other disciplines. Cameron \etal explains the struggles of the writing process and suggests strategies to helps novice writers to overcome them~\cite{cameron2009demystifying}. Hartley presents a bilingual study in English and Spanish on research papers in psychology~\cite{hartley2012new}. The paper focuses on improving different aspects of academic writing to increase readability. Biber \etal discuss the stereotypical characteristics of academic writing like complex grammar structures~\cite{biber2010challenging}.   
+\paragraph{Academic Writing.}  Côté and Custeau~\cite{CC92} in the \textit{SIGCSE Bulletin} describe a pedological tool where students write a survey article. They also provide an evaluation method for grading a student's article along 23 criteria: \eg `the topic is pertinent, original, and interesting;' `redundancy adds to clarity;' and `references are made in the text to illustrations.' Our work is an in-depth study of one of the criteria: `\textbf{the introduction draws attention and is interesting to read}.' Future work might reuse our methodology for studying other criteria.
+
+Miro at \textit{SIGCSE'11} describes 
+
+Other research has examined the role of academic writing other disciplines. Cameron \etal explains the struggles of the writing process and suggests strategies to helps novice writers to overcome them~\cite{cameron2009demystifying}. Hartley presents a bilingual study on improving different aspects of academic writing in psychology to increase readability~\cite{hartley2012new}. Biber \etal discuss stereotypical characteristics of academic writing including complex grammar structures~\cite{biber2010challenging}; a theme of Pinker's book as well~\cite{Pin15}.   
 	
 	
 \paragraph{Grounded Theory.}
@@ -365,6 +380,8 @@ Using colorful language is probably best in moderation. Text that is very ornate
 \section{Conclusion}
 
 As researchers ourselves, we have often found ourselves staring at a blinking cursor, trying to come up with a compelling way to start our paper. After completing our analysis, we find ourselves proactively choosing how to start our writing. The taxonomy also allows us to try on different approaches (\eg `what if we started with a narrative instead of the importance of the domain?') to find one that works. We hope that our results are interesting, but that they also raise consciousness of thoughtful writing in research papers. We hope to see further research on academic writing in information technology. 
+
+%We have noted that the education of information technology and computer science (\eg SIGITE and SIGCSE) domains have a blindspot for technical writing skills when it comes specifically to research papers. We hope to instigate research in this area given the important role that papers play in allowing experts to educate other experts, as well as in the training of students.
 	
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{acmart}
