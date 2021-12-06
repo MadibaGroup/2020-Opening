@@ -1,0 +1,863 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{70}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Alkim, Ducas, P{\"o}ppelmann, and
+  Schwabe}{Alkim et~al\mbox{.}}{2016}]%
+        {alkim2016post}
+\bibfield{author}{\bibinfo{person}{Erdem Alkim}, \bibinfo{person}{L{\'e}o
+  Ducas}, \bibinfo{person}{Thomas P{\"o}ppelmann}, {and} \bibinfo{person}{Peter
+  Schwabe}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Post-quantum key exchange---a new hope}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{327--343}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Alrwais, Yuan, Alowaisheq, Li, and
+  Wang}{Alrwais et~al\mbox{.}}{2014}]%
+        {alrwais2014understanding}
+\bibfield{author}{\bibinfo{person}{Sumayah Alrwais}, \bibinfo{person}{Kan
+  Yuan}, \bibinfo{person}{Eihal Alowaisheq}, \bibinfo{person}{Zhou Li}, {and}
+  \bibinfo{person}{XiaoFeng Wang}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Understanding the dark side of domain parking}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{207--222}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Andriesse, Chen, Van Der~Veen, Slowinska, and
+  Bos}{Andriesse et~al\mbox{.}}{2016}]%
+        {andriesse2016depth}
+\bibfield{author}{\bibinfo{person}{Dennis Andriesse}, \bibinfo{person}{Xi
+  Chen}, \bibinfo{person}{Victor Van Der~Veen}, \bibinfo{person}{Asia
+  Slowinska}, {and} \bibinfo{person}{Herbert Bos}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{An in-depth analysis of disassembly on full-scale
+  x86/x64 binaries}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{583--600}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Araujo, Kevin, et~al\mbox{.}}{Araujo
+  et~al\mbox{.}}{2015}]%
+        {araujo2015compiler}
+\bibfield{author}{\bibinfo{person}{Frederico Araujo}, \bibinfo{person}{W
+  Kevin}, {et~al\mbox{.}}} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Compiler-instrumented, dynamic secret-redaction of
+  legacy processes for attacker deception}. In \bibinfo{booktitle}{\emph{USENIX
+  Security}}. \bibinfo{pages}{145--159}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ben-Sasson, Chiesa, Tromer, and
+  Virza}{Ben-Sasson et~al\mbox{.}}{2014}]%
+        {ben2014succinct}
+\bibfield{author}{\bibinfo{person}{Eli Ben-Sasson}, \bibinfo{person}{Alessandro
+  Chiesa}, \bibinfo{person}{Eran Tromer}, {and} \bibinfo{person}{Madars
+  Virza}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Succinct non-interactive zero knowledge for a von
+  Neumann architecture}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{781--796}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Beringer, Petcher, Katherine, and
+  Appel}{Beringer et~al\mbox{.}}{2015}]%
+        {beringer2015verified}
+\bibfield{author}{\bibinfo{person}{Lennart Beringer}, \bibinfo{person}{Adam
+  Petcher}, \bibinfo{person}{Q~Ye Katherine}, {and} \bibinfo{person}{Andrew~W
+  Appel}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Verified Correctness and Security of OpenSSL
+  {HMAC}}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{207--221}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bonneau and Schechter}{Bonneau and
+  Schechter}{2014}]%
+        {bonneau2014towards}
+\bibfield{author}{\bibinfo{person}{Joseph Bonneau} {and}
+  \bibinfo{person}{Stuart Schechter}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Towards reliable storage of 56-bit secrets in human
+  memory}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{607--623}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Borgolte, Kruegel, and Vigna}{Borgolte
+  et~al\mbox{.}}{2015}]%
+        {borgolte2015meerkat}
+\bibfield{author}{\bibinfo{person}{Kevin Borgolte},
+  \bibinfo{person}{Christopher Kruegel}, {and} \bibinfo{person}{Giovanni
+  Vigna}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Meerkat: Detecting website defacements through
+  image-based object recognition}. In \bibinfo{booktitle}{\emph{USENIX
+  Security}}. \bibinfo{pages}{595--610}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Brocker and Checkoway}{Brocker and
+  Checkoway}{2014}]%
+        {brocker2014iseeyou}
+\bibfield{author}{\bibinfo{person}{Matthew Brocker} {and}
+  \bibinfo{person}{Stephen Checkoway}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{iSeeYou: Disabling the MacBook Webcam Indicator
+  {LED}}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{337--352}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Caliskan-Islam, Harang, Liu, Narayanan, Voss,
+  Yamaguchi, and Greenstadt}{Caliskan-Islam et~al\mbox{.}}{2015}]%
+        {caliskan2015anonymizing}
+\bibfield{author}{\bibinfo{person}{Aylin Caliskan-Islam},
+  \bibinfo{person}{Richard Harang}, \bibinfo{person}{Andrew Liu},
+  \bibinfo{person}{Arvind Narayanan}, \bibinfo{person}{Clare Voss},
+  \bibinfo{person}{Fabian Yamaguchi}, {and} \bibinfo{person}{Rachel
+  Greenstadt}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{De-anonymizing programmers via code stylometry}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{255--270}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Carlini and Wagner}{Carlini and
+  Wagner}{2014}]%
+        {carlini2014rop}
+\bibfield{author}{\bibinfo{person}{Nicholas Carlini} {and}
+  \bibinfo{person}{David Wagner}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{ROP} is still dangerous: Breaking modern
+  defenses}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{385--399}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Caselli, Zambon, Amann, Sommer, and
+  Kargl}{Caselli et~al\mbox{.}}{2016}]%
+        {caselli2016specification}
+\bibfield{author}{\bibinfo{person}{Marco Caselli}, \bibinfo{person}{Emmanuele
+  Zambon}, \bibinfo{person}{Johanna Amann}, \bibinfo{person}{Robin Sommer},
+  {and} \bibinfo{person}{Frank Kargl}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Specification mining for intrusion detection in
+  networked control systems}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{791--806}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chen, Wang, Lee, Wang, Zhang, Huang, Zou, and
+  Liu}{Chen et~al\mbox{.}}{2015}]%
+        {chen2015finding}
+\bibfield{author}{\bibinfo{person}{Kai Chen}, \bibinfo{person}{Peng Wang},
+  \bibinfo{person}{Yeonjoon Lee}, \bibinfo{person}{XiaoFeng Wang},
+  \bibinfo{person}{Nan Zhang}, \bibinfo{person}{Heqing Huang},
+  \bibinfo{person}{Wei Zou}, {and} \bibinfo{person}{Peng Liu}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Finding unknown malice in 10 seconds: Mass vetting
+  for new threats at the google-play scale}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{659--674}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cho and Shin}{Cho and Shin}{2016}]%
+        {cho2016fingerprinting}
+\bibfield{author}{\bibinfo{person}{Kyong-Tak Cho} {and} \bibinfo{person}{Kang~G
+  Shin}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Fingerprinting electronic control units for vehicle
+  intrusion detection}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{911--927}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Clear and Parrish}{Clear and Parrish}{2020}]%
+        {CC2020report}
+\bibfield{author}{\bibinfo{person}{Alison Clear} {and} \bibinfo{person}{Allen
+  Parrish}.} \bibinfo{year}{December 31, 2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{A Computing Curricula Series Report,
+  CC2020}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+  \bibinfo{institution}{Association for Computing Machinery (ACM), IEEE
+  Computer Society (IEEE-CS)}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Clear, Parrish, Zhang, and van~der Veer}{Clear
+  et~al\mbox{.}}{2017}]%
+        {CC2020}
+\bibfield{author}{\bibinfo{person}{Alison Clear}, \bibinfo{person}{Allen
+  Parrish}, \bibinfo{person}{Ming Zhang}, {and} \bibinfo{person}{Gerritt~C
+  van~der Veer}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{CC2020: A Vision on Computing Curricula}. In
+  \bibinfo{booktitle}{\emph{SIGCSE}}. \bibinfo{pages}{647--648}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Costin, Zaddach, Francillon, and
+  Balzarotti}{Costin et~al\mbox{.}}{2014}]%
+        {costin2014large}
+\bibfield{author}{\bibinfo{person}{Andrei Costin}, \bibinfo{person}{Jonas
+  Zaddach}, \bibinfo{person}{Aur{\'e}lien Francillon}, {and}
+  \bibinfo{person}{Davide Balzarotti}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{A large-scale analysis of the security of embedded
+  firmwares}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{95--110}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cote and Custeau}{Cote and Custeau}{1992}]%
+        {CC92}
+\bibfield{author}{\bibinfo{person}{Vianney Cote} {and} \bibinfo{person}{Guy
+  Custeau}.} \bibinfo{year}{1992}\natexlab{}.
+\newblock \showarticletitle{An integrating pedagogical tool based on writing
+  articles}.
+\newblock \bibinfo{journal}{\emph{ACM SIGCSE Bulletin}} \bibinfo{volume}{24},
+  \bibinfo{number}{1} (\bibinfo{year}{1992}), \bibinfo{pages}{38--41}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Davi, Sadeghi, Lehmann, and Monrose}{Davi
+  et~al\mbox{.}}{2014}]%
+        {davi2014stitching}
+\bibfield{author}{\bibinfo{person}{Lucas Davi}, \bibinfo{person}{Ahmad-Reza
+  Sadeghi}, \bibinfo{person}{Daniel Lehmann}, {and} \bibinfo{person}{Fabian
+  Monrose}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Stitching the gadgets: On the ineffectiveness of
+  coarse-grained control-flow integrity protection}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{401--416}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Demmler, Schneider, and Zohner}{Demmler
+  et~al\mbox{.}}{2014}]%
+        {demmler2014}
+\bibfield{author}{\bibinfo{person}{Daniel Demmler}, \bibinfo{person}{Thomas
+  Schneider}, {and} \bibinfo{person}{Michael Zohner}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Ad-hoc secure two-party computation on mobile
+  devices using hardware tokens}. In \bibinfo{booktitle}{\emph{USENIX
+  Security}}. \bibinfo{pages}{893--908}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Di~Federico, Cama, Shoshitaishvili, Kruegel,
+  and Vigna}{Di~Federico et~al\mbox{.}}{2015}]%
+        {di2015elf}
+\bibfield{author}{\bibinfo{person}{Alessandro Di~Federico},
+  \bibinfo{person}{Amat Cama}, \bibinfo{person}{Yan Shoshitaishvili},
+  \bibinfo{person}{Christopher Kruegel}, {and} \bibinfo{person}{Giovanni
+  Vigna}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{How the {ELF} Ruined Christmas}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{643--658}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dinh, Saxena, Chang, Ooi, and Zhang}{Dinh
+  et~al\mbox{.}}{2015}]%
+        {dinh2015m2r}
+\bibfield{author}{\bibinfo{person}{Tien Tuan~Anh Dinh},
+  \bibinfo{person}{Prateek Saxena}, \bibinfo{person}{Ee-Chien Chang},
+  \bibinfo{person}{Beng~Chin Ooi}, {and} \bibinfo{person}{Chunwang Zhang}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{M2r: Enabling stronger privacy in mapreduce
+  computation}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{447--462}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dowling, Stebila, and Zaverucha}{Dowling
+  et~al\mbox{.}}{2016}]%
+        {dowling2016authenticated}
+\bibfield{author}{\bibinfo{person}{Benjamin Dowling}, \bibinfo{person}{Douglas
+  Stebila}, {and} \bibinfo{person}{Greg Zaverucha}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Authenticated network time synchronization}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{823--840}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Egele, Woo, Chapman, and Brumley}{Egele
+  et~al\mbox{.}}{2014}]%
+        {egele2014blanket}
+\bibfield{author}{\bibinfo{person}{Manuel Egele}, \bibinfo{person}{Maverick
+  Woo}, \bibinfo{person}{Peter Chapman}, {and} \bibinfo{person}{David
+  Brumley}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Blanket execution: Dynamic similarity testing for
+  program binaries and components}. In \bibinfo{booktitle}{\emph{USENIX
+  Security}}. \bibinfo{pages}{303--317}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fasser}{Fasser}{2013}]%
+        {Fas13}
+\bibfield{author}{\bibinfo{person}{Joe Fasser}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Why Stephen King Spends `Months and Even Years'
+  Writing Opening Sentences}.
+\newblock \bibinfo{journal}{\emph{The Atlantic}} (\bibinfo{date}{July}
+  \bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fayaz, Tobioka, Sekar, and Bailey}{Fayaz
+  et~al\mbox{.}}{2015}]%
+        {fayaz2015bohatei}
+\bibfield{author}{\bibinfo{person}{Seyed~K Fayaz}, \bibinfo{person}{Yoshiaki
+  Tobioka}, \bibinfo{person}{Vyas Sekar}, {and} \bibinfo{person}{Michael
+  Bailey}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Bohatei: Flexible and elastic ddos defense}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{817--832}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fell, Proulx, and Casey}{Fell
+  et~al\mbox{.}}{1996}]%
+        {FPC96}
+\bibfield{author}{\bibinfo{person}{Harriet~J Fell}, \bibinfo{person}{Viera~K
+  Proulx}, {and} \bibinfo{person}{John Casey}.}
+  \bibinfo{year}{1996}\natexlab{}.
+\newblock \showarticletitle{Writing across the computer science curriculum}.
+\newblock \bibinfo{journal}{\emph{ACM SIGCSE Bulletin}} \bibinfo{volume}{28},
+  \bibinfo{number}{1} (\bibinfo{year}{1996}), \bibinfo{pages}{204--209}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fredrikson and Livshits}{Fredrikson and
+  Livshits}{2014}]%
+        {fredrikson2014zo}
+\bibfield{author}{\bibinfo{person}{Matthew Fredrikson} {and}
+  \bibinfo{person}{Benjamin Livshits}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Z{\O}: An optimizing distributing zero-knowledge
+  compiler}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{909--924}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Garcia, Oswald, Kasper, and
+  Pavlid{\`e}s}{Garcia et~al\mbox{.}}{2016}]%
+        {garcia2016lock}
+\bibfield{author}{\bibinfo{person}{Flavio~D Garcia}, \bibinfo{person}{David
+  Oswald}, \bibinfo{person}{Timo Kasper}, {and} \bibinfo{person}{Pierre
+  Pavlid{\`e}s}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Lock it and still lose it---on the (in) security of
+  automotive remote keyless entry systems}. In \bibinfo{booktitle}{\emph{USENIX
+  Security}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Garvey}{Garvey}{2010}]%
+        {Gar10}
+\bibfield{author}{\bibinfo{person}{Alan Garvey}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Writing in an Upper-Level CS Course}. In
+  \bibinfo{booktitle}{\emph{SIGCSE}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Glaser and Strauss}{Glaser and
+  Strauss}{1967}]%
+        {glaser1968discovery}
+\bibfield{author}{\bibinfo{person}{Barney~G Glaser} {and}
+  \bibinfo{person}{Anselm~L Strauss}.} \bibinfo{year}{1967}\natexlab{}.
+\newblock \showarticletitle{The discovery of grounded theory; strategies for
+  qualitative research}.
+\newblock  (\bibinfo{year}{1967}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Graziano, Canali, Bilge, Lanzi, Shi,
+  Balzarotti, van Dijk, Bailey, Devadas, Liu, et~al\mbox{.}}{Graziano
+  et~al\mbox{.}}{2015}]%
+        {graziano2015needles}
+\bibfield{author}{\bibinfo{person}{Mariano Graziano}, \bibinfo{person}{Davide
+  Canali}, \bibinfo{person}{Leyla Bilge}, \bibinfo{person}{Andrea Lanzi},
+  \bibinfo{person}{Elaine Shi}, \bibinfo{person}{Davide Balzarotti},
+  \bibinfo{person}{Marten van Dijk}, \bibinfo{person}{Michael Bailey},
+  \bibinfo{person}{Srinivas Devadas}, \bibinfo{person}{Mingyan Liu},
+  {et~al\mbox{.}}} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Needles in a haystack: Mining information from
+  public dynamic analysis sandboxes for malware intelligence}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{1057--1072}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Heilman, Kendler, Zohar, and Goldberg}{Heilman
+  et~al\mbox{.}}{2015}]%
+        {heilman2015eclipse}
+\bibfield{author}{\bibinfo{person}{Ethan Heilman}, \bibinfo{person}{Alison
+  Kendler}, \bibinfo{person}{Aviv Zohar}, {and} \bibinfo{person}{Sharon
+  Goldberg}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Eclipse attacks on bitcoin's peer-to-peer network}.
+  In \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{129--144}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jagpal, Dingle, Gravel, Mavrommatis, Provos,
+  Rajab, and Thomas}{Jagpal et~al\mbox{.}}{2015}]%
+        {jagpal2015trends}
+\bibfield{author}{\bibinfo{person}{Nav Jagpal}, \bibinfo{person}{Eric Dingle},
+  \bibinfo{person}{Jean-Philippe Gravel}, \bibinfo{person}{Panayiotis
+  Mavrommatis}, \bibinfo{person}{Niels Provos}, \bibinfo{person}{Moheeb~Abu
+  Rajab}, {and} \bibinfo{person}{Kurt Thomas}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Trends and lessons from three years fighting
+  malicious extensions}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{579--593}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jana, Kang, Roth, and Ray}{Jana
+  et~al\mbox{.}}{2016}]%
+        {jana2016automatically}
+\bibfield{author}{\bibinfo{person}{Suman Jana}, \bibinfo{person}{Yuan~Jochen
+  Kang}, \bibinfo{person}{Samuel Roth}, {and} \bibinfo{person}{Baishakhi Ray}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Automatically detecting error handling bugs using
+  error specifications}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{345--362}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kay}{Kay}{1998}]%
+        {Kay98}
+\bibfield{author}{\bibinfo{person}{David~G Kay}.}
+  \bibinfo{year}{1998}\natexlab{}.
+\newblock \showarticletitle{Computer scientists can teach writing: an upper
+  division course for computer science majors}. In
+  \bibinfo{booktitle}{\emph{SIGCSE}}. \bibinfo{pages}{117--120}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kemerlis, Polychronakis, and
+  Keromytis}{Kemerlis et~al\mbox{.}}{2014}]%
+        {kemerlis2014ret2dir}
+\bibfield{author}{\bibinfo{person}{Vasileios~P Kemerlis},
+  \bibinfo{person}{Michalis Polychronakis}, {and} \bibinfo{person}{Angelos~D
+  Keromytis}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{ret2dir: Rethinking kernel isolation}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{957--972}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{King}{King}{1967}]%
+        {king1967opening}
+\bibfield{author}{\bibinfo{person}{Lester~S King}.}
+  \bibinfo{year}{1967}\natexlab{}.
+\newblock \showarticletitle{The Opening Sentence}.
+\newblock \bibinfo{journal}{\emph{JAMA}} \bibinfo{volume}{202},
+  \bibinfo{number}{6} (\bibinfo{year}{1967}), \bibinfo{pages}{535--536}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Komanduri, Shay, Cranor, Herley, and
+  Schechter}{Komanduri et~al\mbox{.}}{2014}]%
+        {komanduri2014telepathwords}
+\bibfield{author}{\bibinfo{person}{Saranga Komanduri}, \bibinfo{person}{Richard
+  Shay}, \bibinfo{person}{Lorrie~Faith Cranor}, \bibinfo{person}{Cormac
+  Herley}, {and} \bibinfo{person}{Stuart Schechter}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Telepathwords: Preventing weak passwords by reading
+  users' minds}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{591--606}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Le~Blond, Uritesc, Gilbert, Chua, Saxena, and
+  Kirda}{Le~Blond et~al\mbox{.}}{2014}]%
+        {le2014look}
+\bibfield{author}{\bibinfo{person}{Stevens Le~Blond}, \bibinfo{person}{Adina
+  Uritesc}, \bibinfo{person}{C{\'e}dric Gilbert}, \bibinfo{person}{Zheng~Leong
+  Chua}, \bibinfo{person}{Prateek Saxena}, {and} \bibinfo{person}{Engin
+  Kirda}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{A look at targeted attacks through the lense of an
+  {NGO}}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{543--558}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{L{\'e}cuyer, Ducoffe, Lan, Papancea, Petsios,
+  Spahn, Chaintreau, and Geambasu}{L{\'e}cuyer et~al\mbox{.}}{2014}]%
+        {lecuyer2014xray}
+\bibfield{author}{\bibinfo{person}{Mathias L{\'e}cuyer},
+  \bibinfo{person}{Guillaume Ducoffe}, \bibinfo{person}{Francis Lan},
+  \bibinfo{person}{Andrei Papancea}, \bibinfo{person}{Theofilos Petsios},
+  \bibinfo{person}{Riley Spahn}, \bibinfo{person}{Augustin Chaintreau}, {and}
+  \bibinfo{person}{Roxana Geambasu}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Xray: Enhancing the web's transparency with
+  differential correlation}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{49--64}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lekies, Stock, Wentzel, and Johns}{Lekies
+  et~al\mbox{.}}{2015}]%
+        {lekies2015unexpected}
+\bibfield{author}{\bibinfo{person}{Sebastian Lekies}, \bibinfo{person}{Ben
+  Stock}, \bibinfo{person}{Martin Wentzel}, {and} \bibinfo{person}{Martin
+  Johns}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{The unexpected dangers of dynamic javascript}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{723--735}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lentz, Erd{\'e}lyi, Aditya, Shi, Druschel, and
+  Bhattacharjee}{Lentz et~al\mbox{.}}{2014}]%
+        {lentz2014sddr}
+\bibfield{author}{\bibinfo{person}{Matthew Lentz}, \bibinfo{person}{Viktor
+  Erd{\'e}lyi}, \bibinfo{person}{Paarijaat Aditya}, \bibinfo{person}{Elaine
+  Shi}, \bibinfo{person}{Peter Druschel}, {and} \bibinfo{person}{Bobby
+  Bhattacharjee}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{SDDR}: Light-Weight, Secure Mobile Encounters}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{925--940}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Li, He, Akhawe, and Song}{Li
+  et~al\mbox{.}}{2014}]%
+        {li2014emperor}
+\bibfield{author}{\bibinfo{person}{Zhiwei Li}, \bibinfo{person}{Warren He},
+  \bibinfo{person}{Devdatta Akhawe}, {and} \bibinfo{person}{Dawn Song}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{The emperor's new password manager: Security
+  analysis of web-based password managers}. In \bibinfo{booktitle}{\emph{USENIX
+  Security}}. \bibinfo{pages}{465--479}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Melara, Blankstein, Bonneau, Felten, and
+  Freedman}{Melara et~al\mbox{.}}{2015}]%
+        {melara2015coniks}
+\bibfield{author}{\bibinfo{person}{Marcela~S Melara}, \bibinfo{person}{Aaron
+  Blankstein}, \bibinfo{person}{Joseph Bonneau}, \bibinfo{person}{Edward~W
+  Felten}, {and} \bibinfo{person}{Michael~J Freedman}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{CONIKS}: Bringing Key Transparency to End Users}.
+  In \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{383--398}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Meyer, Somorovsky, Weiss, Schwenk, Schinzel,
+  and Tews}{Meyer et~al\mbox{.}}{2014}]%
+        {meyer2014revisiting}
+\bibfield{author}{\bibinfo{person}{Christopher Meyer}, \bibinfo{person}{Juraj
+  Somorovsky}, \bibinfo{person}{Eugen Weiss}, \bibinfo{person}{J{\"o}rg
+  Schwenk}, \bibinfo{person}{Sebastian Schinzel}, {and} \bibinfo{person}{Erik
+  Tews}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Revisiting SSL/TLS implementations: New
+  bleichenbacher side channels and attacks}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{733--748}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Michalevsky, Schulman, Veerapandian, Boneh,
+  and Nakibly}{Michalevsky et~al\mbox{.}}{2015}]%
+        {michalevsky2015powerspy}
+\bibfield{author}{\bibinfo{person}{Yan Michalevsky}, \bibinfo{person}{Aaron
+  Schulman}, \bibinfo{person}{Gunaa~Arumugam Veerapandian},
+  \bibinfo{person}{Dan Boneh}, {and} \bibinfo{person}{Gabi Nakibly}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Powerspy: Location tracking using mobile device
+  power analysis}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{785--800}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mir{\'o}~Juli{\`a}}{Mir{\'o}~Juli{\`a}}{2011}]%
+        {Mir11}
+\bibfield{author}{\bibinfo{person}{Joe Mir{\'o}~Juli{\`a}}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{An engineering approach to teaching writing.}. In
+  \bibinfo{booktitle}{\emph{SIGCSE}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nakibly, Schcolnik, and Rubin}{Nakibly
+  et~al\mbox{.}}{2016}]%
+        {nakibly2016website}
+\bibfield{author}{\bibinfo{person}{Gabi Nakibly}, \bibinfo{person}{Jaime
+  Schcolnik}, {and} \bibinfo{person}{Yossi Rubin}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Website-targeted false content injection by network
+  operators}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{227--244}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nan, Yang, Yang, Zhou, Gu, and Wang}{Nan
+  et~al\mbox{.}}{2015}]%
+        {nan2015uipicker}
+\bibfield{author}{\bibinfo{person}{Yuhong Nan}, \bibinfo{person}{Min Yang},
+  \bibinfo{person}{Zhemin Yang}, \bibinfo{person}{Shunfan Zhou},
+  \bibinfo{person}{Guofei Gu}, {and} \bibinfo{person}{XiaoFeng Wang}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Uipicker: User-input privacy identification in
+  mobile applications}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{993--1008}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nelms, Perdisci, Antonakakis, and
+  Ahamad}{Nelms et~al\mbox{.}}{2015}]%
+        {nelms2015webwitness}
+\bibfield{author}{\bibinfo{person}{Terry Nelms}, \bibinfo{person}{Roberto
+  Perdisci}, \bibinfo{person}{Manos Antonakakis}, {and}
+  \bibinfo{person}{Mustaque Ahamad}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Webwitness: Investigating, categorizing, and
+  mitigating malware download paths}. In \bibinfo{booktitle}{\emph{USENIX
+  Security}}. \bibinfo{pages}{1025--1040}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Oltrogge, Acar, Dechand, Smith, and
+  Fahl}{Oltrogge et~al\mbox{.}}{2015}]%
+        {oltrogge2015pin}
+\bibfield{author}{\bibinfo{person}{Marten Oltrogge}, \bibinfo{person}{Yasemin
+  Acar}, \bibinfo{person}{Sergej Dechand}, \bibinfo{person}{Matthew Smith},
+  {and} \bibinfo{person}{Sascha Fahl}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{To Pin or Not to Pin---Helping App Developers
+  Bullet Proof Their {TLS} Connections}. In \bibinfo{booktitle}{\emph{USENIX
+  Security}}. \bibinfo{pages}{239--254}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Oren and Keromytis}{Oren and
+  Keromytis}{2014}]%
+        {oren2014aether}
+\bibfield{author}{\bibinfo{person}{Yossef Oren} {and}
+  \bibinfo{person}{Angelos~D Keromytis}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{From the aether to the ethernet---attacking the
+  internet using broadcast digital television}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{353--368}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pattuk, Kantarcioglu, Lin, and Ulusoy}{Pattuk
+  et~al\mbox{.}}{2014}]%
+        {pattuk2014preventing}
+\bibfield{author}{\bibinfo{person}{Erman Pattuk}, \bibinfo{person}{Murat
+  Kantarcioglu}, \bibinfo{person}{Zhiqiang Lin}, {and} \bibinfo{person}{Huseyin
+  Ulusoy}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Preventing cryptographic key leakage in cloud
+  virtual machines}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{703--718}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pesante}{Pesante}{1991}]%
+        {Pes91}
+\bibfield{author}{\bibinfo{person}{Linda~H Pesante}.}
+  \bibinfo{year}{1991}\natexlab{}.
+\newblock \showarticletitle{Integrating writing into computer science courses}.
+  In \bibinfo{booktitle}{\emph{SIGCSE}}. \bibinfo{pages}{205--209}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pinker}{Pinker}{2015}]%
+        {Pin15}
+\bibfield{author}{\bibinfo{person}{Steven Pinker}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The sense of style: The thinking person's
+  guide to writing in the 21st century}}.
+\newblock \bibinfo{publisher}{Penguin Books}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rane, Lin, and Tiwari}{Rane
+  et~al\mbox{.}}{2015}]%
+        {rane2015raccoon}
+\bibfield{author}{\bibinfo{person}{Ashay Rane}, \bibinfo{person}{Calvin Lin},
+  {and} \bibinfo{person}{Mohit Tiwari}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Raccoon: Closing digital side-channels through
+  obfuscated execution}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{431--446}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rebert, Cha, Avgerinos, Foote, Warren, Grieco,
+  and Brumley}{Rebert et~al\mbox{.}}{2014}]%
+        {rebert2014optimizing}
+\bibfield{author}{\bibinfo{person}{Alexandre Rebert}, \bibinfo{person}{Sang~Kil
+  Cha}, \bibinfo{person}{Thanassis Avgerinos}, \bibinfo{person}{Jonathan
+  Foote}, \bibinfo{person}{David Warren}, \bibinfo{person}{Gustavo Grieco},
+  {and} \bibinfo{person}{David Brumley}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Optimizing seed selection for fuzzing}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{861--875}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Saltaformaggio, Gu, Zhang, and
+  Xu}{Saltaformaggio et~al\mbox{.}}{2014}]%
+        {saltaformaggio2014dscrete}
+\bibfield{author}{\bibinfo{person}{Brendan Saltaformaggio},
+  \bibinfo{person}{Zhongshu Gu}, \bibinfo{person}{Xiangyu Zhang}, {and}
+  \bibinfo{person}{Dongyan Xu}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{DSCRETE}: Automatic rendering of forensic
+  information from memory images via application logic reuse}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{255--269}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Smolyar, Ben-Yehuda, and Tsafrir}{Smolyar
+  et~al\mbox{.}}{2015}]%
+        {smolyar2015securing}
+\bibfield{author}{\bibinfo{person}{Igor Smolyar}, \bibinfo{person}{Muli
+  Ben-Yehuda}, {and} \bibinfo{person}{Dan Tsafrir}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Securing self-virtualizing ethernet devices}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{335--350}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Soska and Christin}{Soska and
+  Christin}{2015}]%
+        {soska2015measuring}
+\bibfield{author}{\bibinfo{person}{Kyle Soska} {and} \bibinfo{person}{Nicolas
+  Christin}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Measuring the longitudinal evolution of the online
+  anonymous marketplace ecosystem}. In \bibinfo{booktitle}{\emph{USENIX
+  Security}}. \bibinfo{pages}{33--48}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Taylor and Paine}{Taylor and Paine}{1993}]%
+        {TP93}
+\bibfield{author}{\bibinfo{person}{Harriet~G Taylor} {and}
+  \bibinfo{person}{Katharine~M Paine}.} \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{An interdisciplinary approach to the development of
+  writing skills in computer science students}.
+\newblock \bibinfo{journal}{\emph{ACM SIGCSE Bulletin}} \bibinfo{volume}{25},
+  \bibinfo{number}{1} (\bibinfo{year}{1993}), \bibinfo{pages}{274--278}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Thomas, Crespo, Rasti, Picod, Phillips,
+  Decoste, Sharp, Tirelo, Tofigh, Courteau, et~al\mbox{.}}{Thomas
+  et~al\mbox{.}}{2016}]%
+        {thomas2016investigating}
+\bibfield{author}{\bibinfo{person}{Kurt Thomas}, \bibinfo{person}{Juan A~Elices
+  Crespo}, \bibinfo{person}{Ryan Rasti}, \bibinfo{person}{Jean-Michel Picod},
+  \bibinfo{person}{Cait Phillips}, \bibinfo{person}{Marc-Andr{\'e} Decoste},
+  \bibinfo{person}{Chris Sharp}, \bibinfo{person}{Fabio Tirelo},
+  \bibinfo{person}{Ali Tofigh}, \bibinfo{person}{Marc-Antoine Courteau},
+  {et~al\mbox{.}}} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Investigating commercial pay-per-install and the
+  distribution of unwanted software}. In \bibinfo{booktitle}{\emph{USENIX
+  Security}}. \bibinfo{pages}{721--739}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tripp and Rubin}{Tripp and Rubin}{2014}]%
+        {tripp2014bayesian}
+\bibfield{author}{\bibinfo{person}{Omer Tripp} {and} \bibinfo{person}{Julia
+  Rubin}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{A bayesian approach to privacy enforcement in
+  smartphones}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{175--190}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Van~Goethem, Vanhoef, Piessens, and
+  Joosen}{Van~Goethem et~al\mbox{.}}{2016}]%
+        {van2016request}
+\bibfield{author}{\bibinfo{person}{Tom Van~Goethem}, \bibinfo{person}{Mathy
+  Vanhoef}, \bibinfo{person}{Frank Piessens}, {and} \bibinfo{person}{Wouter
+  Joosen}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Request and conquer: Exposing cross-origin resource
+  size}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{447--462}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Viswanath, Bashir, Crovella, Guha, Gummadi,
+  Krishnamurthy, and Mislove}{Viswanath et~al\mbox{.}}{2014}]%
+        {viswanath2014towards}
+\bibfield{author}{\bibinfo{person}{Bimal Viswanath}, \bibinfo{person}{M~Ahmad
+  Bashir}, \bibinfo{person}{Mark Crovella}, \bibinfo{person}{Saikat Guha},
+  \bibinfo{person}{Krishna~P Gummadi}, \bibinfo{person}{Balachander
+  Krishnamurthy}, {and} \bibinfo{person}{Alan Mislove}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Towards detecting anomalous user behavior in online
+  social networks}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{223--238}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Xu, Price, Frahm, and Monrose}{Xu
+  et~al\mbox{.}}{2016}]%
+        {xu2016virtual}
+\bibfield{author}{\bibinfo{person}{Yi Xu}, \bibinfo{person}{True Price},
+  \bibinfo{person}{Jan-Michael Frahm}, {and} \bibinfo{person}{Fabian Monrose}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Virtual u: Defeating face liveness detection by
+  building virtual models from your public photos}. In
+  \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{497--512}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yarom and Falkner}{Yarom and Falkner}{2014}]%
+        {yarom2014flush+}
+\bibfield{author}{\bibinfo{person}{Yuval Yarom} {and} \bibinfo{person}{Katrina
+  Falkner}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{FLUSH+ RELOAD: A high resolution, low noise, L3
+  cache side-channel attack}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{719--732}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yun, Min, Si, Jang, Kim, and Naik}{Yun
+  et~al\mbox{.}}{2016}]%
+        {yun2016apisan}
+\bibfield{author}{\bibinfo{person}{Insu Yun}, \bibinfo{person}{Changwoo Min},
+  \bibinfo{person}{Xujie Si}, \bibinfo{person}{Yeongjin Jang},
+  \bibinfo{person}{Taesoo Kim}, {and} \bibinfo{person}{Mayur Naik}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Apisan: Sanitizing {API} usages through semantic
+  cross-checking}. In \bibinfo{booktitle}{\emph{USENIX Security}}.
+  \bibinfo{pages}{363--378}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zheng, Jiang, Liang, Duan, Chen, Wan, and
+  Weaver}{Zheng et~al\mbox{.}}{2015}]%
+        {zheng2015cookies}
+\bibfield{author}{\bibinfo{person}{Xiaofeng Zheng}, \bibinfo{person}{Jian
+  Jiang}, \bibinfo{person}{Jinjin Liang}, \bibinfo{person}{Haixin Duan},
+  \bibinfo{person}{Shuo Chen}, \bibinfo{person}{Tao Wan}, {and}
+  \bibinfo{person}{Nicholas Weaver}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Cookies lack integrity: Real-world implications}.
+  In \bibinfo{booktitle}{\emph{USENIX Security}}. \bibinfo{pages}{707--721}.
+\newblock
+
+
+\end{thebibliography}

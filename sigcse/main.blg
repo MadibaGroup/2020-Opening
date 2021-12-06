@@ -1,0 +1,189 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: acmart.bib
+Database file #2: papers.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in alkim2016post
+Warning--empty address in alkim2016post
+Warning--empty publisher in alrwais2014understanding
+Warning--empty address in alrwais2014understanding
+Warning--empty publisher in andriesse2016depth
+Warning--empty address in andriesse2016depth
+Warning--empty publisher in araujo2015compiler
+Warning--empty address in araujo2015compiler
+Warning--empty publisher in ben2014succinct
+Warning--empty address in ben2014succinct
+Warning--empty publisher in beringer2015verified
+Warning--empty address in beringer2015verified
+Warning--empty publisher in bonneau2014towards
+Warning--empty address in bonneau2014towards
+Warning--empty publisher in borgolte2015meerkat
+Warning--empty address in borgolte2015meerkat
+Warning--empty publisher in brocker2014iseeyou
+Warning--empty address in brocker2014iseeyou
+Warning--empty publisher in caliskan2015anonymizing
+Warning--empty address in caliskan2015anonymizing
+Warning--empty publisher in carlini2014rop
+Warning--empty address in carlini2014rop
+Warning--empty publisher in caselli2016specification
+Warning--empty address in caselli2016specification
+Warning--empty publisher in chen2015finding
+Warning--empty address in chen2015finding
+Warning--empty publisher in cho2016fingerprinting
+Warning--empty address in cho2016fingerprinting
+Warning--empty publisher in CC2020
+Warning--empty address in CC2020
+Warning--empty publisher in costin2014large
+Warning--empty address in costin2014large
+Warning--empty publisher in davi2014stitching
+Warning--empty address in davi2014stitching
+Warning--empty publisher in demmler2014
+Warning--empty address in demmler2014
+Warning--empty publisher in di2015elf
+Warning--empty address in di2015elf
+Warning--empty publisher in dinh2015m2r
+Warning--empty address in dinh2015m2r
+Warning--empty publisher in dowling2016authenticated
+Warning--empty address in dowling2016authenticated
+Warning--empty publisher in egele2014blanket
+Warning--empty address in egele2014blanket
+Warning--no number and no volume in Fas13
+Warning--page numbers missing in both pages and numpages fields in Fas13
+Warning--empty publisher in fayaz2015bohatei
+Warning--empty address in fayaz2015bohatei
+Warning--empty publisher in fredrikson2014zo
+Warning--empty address in fredrikson2014zo
+Warning--empty publisher in garcia2016lock
+Warning--empty address in garcia2016lock
+Warning--page numbers missing in both pages and numpages fields in garcia2016lock
+Warning--empty publisher in Gar10
+Warning--empty address in Gar10
+Warning--page numbers missing in both pages and numpages fields in Gar10
+Warning--no journal in glaser1968discovery
+Warning--no number and no volume in glaser1968discovery
+Warning--page numbers missing in both pages and numpages fields in glaser1968discovery
+Warning--empty publisher in graziano2015needles
+Warning--empty address in graziano2015needles
+Warning--empty publisher in heilman2015eclipse
+Warning--empty address in heilman2015eclipse
+Warning--empty publisher in jagpal2015trends
+Warning--empty address in jagpal2015trends
+Warning--empty publisher in jana2016automatically
+Warning--empty address in jana2016automatically
+Warning--empty publisher in Kay98
+Warning--empty address in Kay98
+Warning--empty publisher in kemerlis2014ret2dir
+Warning--empty address in kemerlis2014ret2dir
+Warning--empty publisher in komanduri2014telepathwords
+Warning--empty address in komanduri2014telepathwords
+Warning--empty publisher in le2014look
+Warning--empty address in le2014look
+Warning--empty publisher in lecuyer2014xray
+Warning--empty address in lecuyer2014xray
+Warning--empty publisher in lekies2015unexpected
+Warning--empty address in lekies2015unexpected
+Warning--empty publisher in lentz2014sddr
+Warning--empty address in lentz2014sddr
+Warning--empty publisher in li2014emperor
+Warning--empty address in li2014emperor
+Warning--empty publisher in melara2015coniks
+Warning--empty address in melara2015coniks
+Warning--empty publisher in meyer2014revisiting
+Warning--empty address in meyer2014revisiting
+Warning--empty publisher in michalevsky2015powerspy
+Warning--empty address in michalevsky2015powerspy
+Warning--empty publisher in Mir11
+Warning--empty address in Mir11
+Warning--page numbers missing in both pages and numpages fields in Mir11
+Warning--empty publisher in nakibly2016website
+Warning--empty address in nakibly2016website
+Warning--empty publisher in nan2015uipicker
+Warning--empty address in nan2015uipicker
+Warning--empty publisher in nelms2015webwitness
+Warning--empty address in nelms2015webwitness
+Warning--empty publisher in oltrogge2015pin
+Warning--empty address in oltrogge2015pin
+Warning--empty publisher in oren2014aether
+Warning--empty address in oren2014aether
+Warning--empty publisher in pattuk2014preventing
+Warning--empty address in pattuk2014preventing
+Warning--empty publisher in Pes91
+Warning--empty address in Pes91
+Warning--empty address in Pin15
+Warning--empty publisher in rane2015raccoon
+Warning--empty address in rane2015raccoon
+Warning--empty publisher in rebert2014optimizing
+Warning--empty address in rebert2014optimizing
+Warning--empty publisher in saltaformaggio2014dscrete
+Warning--empty address in saltaformaggio2014dscrete
+Warning--empty publisher in smolyar2015securing
+Warning--empty address in smolyar2015securing
+Warning--empty publisher in soska2015measuring
+Warning--empty address in soska2015measuring
+Warning--empty publisher in thomas2016investigating
+Warning--empty address in thomas2016investigating
+Warning--empty publisher in tripp2014bayesian
+Warning--empty address in tripp2014bayesian
+Warning--empty publisher in van2016request
+Warning--empty address in van2016request
+Warning--empty publisher in viswanath2014towards
+Warning--empty address in viswanath2014towards
+Warning--empty publisher in xu2016virtual
+Warning--empty address in xu2016virtual
+Warning--empty publisher in yarom2014flush+
+Warning--empty address in yarom2014flush+
+Warning--empty publisher in yun2016apisan
+Warning--empty address in yun2016apisan
+Warning--empty publisher in zheng2015cookies
+Warning--empty address in zheng2015cookies
+You've used 70 entries,
+            5959 wiz_defined-function locations,
+            1778 strings with 29339 characters,
+and the built_in function-call counts, 92520 in all, are:
+= -- 9718
+> -- 3751
+< -- 0
++ -- 1268
+- -- 1252
+* -- 6684
+:= -- 9459
+add.period$ -- 349
+call.type$ -- 70
+change.case$ -- 558
+chr.to.int$ -- 70
+cite$ -- 203
+duplicate$ -- 8671
+empty$ -- 6004
+format.name$ -- 1504
+if$ -- 21703
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 336
+newline$ -- 538
+num.names$ -- 560
+pop$ -- 3745
+preamble$ -- 1
+purify$ -- 1187
+quote$ -- 0
+skip$ -- 3219
+stack$ -- 0
+substring$ -- 6907
+swap$ -- 915
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 2001
+warning$ -- 133
+while$ -- 549
+width$ -- 0
+write$ -- 1162
+(There were 133 warnings)
