@@ -5,7 +5,7 @@
 %\setcopyright{acmcopyright}
 %\copyrightyear{2018}
 %\acmYear{2018}
-%\acmDOI{10.1145/1122445.1122456}
+\acmDOI{10.1145/3478431.3499378}
 \acmConference[SIGCSE '22]{The 53rd ACM Technical Symposium on Computer Science Education}{March 2--5, 2022}{Providence, RI}
 %\acmBooktitle{SIGCSE 2022 – 53rd ACM Technical Symposium on Computer Science Education, March 2--5, 2022, Providence, RI}
 %\acmPrice{15.00}
@@ -106,6 +106,8 @@ We selected \textit{USENIX Security}, which has always offered its proceedings a
 
 \section{Preliminaries and Related Work}
 
+
+
 \paragraph{Opening Sentences.}
 
 Our idea to examine opening sentences came from Pinker's style guide~\cite{Pin15}, which is devoted in part to improving technical, scientific, and academic writing. Pinker also devotes a section of the book to the role of the opening sentences of a work (illustrating with popular non-fiction books). When we reflected on our own difficulty with `getting a paper going,' we conceived of this project. To our knowledge, opening sentences have not been systematically categorized before. In an older paper, King looks at opening sentences in medical research~\cite{king1967opening}. The article provides stylistic advice---draw the readers' attention, be concise and clear about stating the main theme of the paper---and he gives examples from medical writing and explains different ways to simplify overcomplicated sentences by shortening them. By contrast, our paper is not normative at all (it is not on how to improve an opening sentence) but is instead a neutral classification of how others have decided to open their papers, looking for trends and the variations in approach.
@@ -120,14 +122,13 @@ Outside of computer science, Cameron \etal explains the struggles of the writing
 
 Grounded theory is used as a methodology in security and privacy research. Some examples include: user mental models of cryptocurrency systems~\cite{mai2020user}, how blockchain technology is perceived and how it is used~\cite{ruoti2019blockchain}, preferences for security warning types~\cite{danilova2020one}, the factors that influence software developers' motivation towards security~\cite{assal2018motivations},  how users manage their online security posture~\cite{ruoti2017weighing}, and how users manage their passwords~\cite{stobert2014password}.
 
-	\section{Categorization}
+\section{Categorization}
+\label{sec:categories}
 
-	\label{sec:categories}
 	\begin{figure*}[t]
-		\centering
-		\includegraphics[width=0.8\textwidth]{image.png}
-		\caption{A treemap of our codes for the opening sentences of 379 research papers. The size (in area) of each visualized code is proportional to the number of sentences with that code.}
-		\label{fig:treemap}
+	\centering
+	\includegraphics[width=0.7\textwidth]{image.png}
+	\caption{A treemap of our codes for the opening sentences of 379 research papers. The size (in area) of each visualized code is proportional to the number of sentences with that code.\label{fig:treemap}}
 	\end{figure*}
 
 	Figure~\ref{fig:treemap} shows the taxonomy of our codes where the area of the box is proportional to how many times they were used. We provide a description of each category, as well as several examples, later in this section.
@@ -402,6 +403,11 @@ For some sentences, the problem is not stated explicitly but can be inferred fro
 	%We have noted that the education of information technology and computer science (\eg SIGITE and SIGCSE) domains have a blindspot for technical writing skills when it comes specifically to research papers. We hope to instigate research in this area given the important role that papers play in allowing experts to educate other experts, as well as in the training of students.
 
 	% A bad opening sentence...
+	
+\begin{acks} 
+
+The \textit{SIGCSE} reviews were thoughtful, insightful, and enthusiastic---thank you to the reviewers. J. Clark acknowledges partial funding of this project from NSERC. 
+\end{acks}
 
 
 	\bibliographystyle{ACM-Reference-Format}
